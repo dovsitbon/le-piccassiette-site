@@ -1,0 +1,21 @@
+{
+  "_doc": "Coordonnées et réglages généraux. rating : note Google relevée à la main (mettre à jour value, count et checked). whatsapp : numéro de portable au format international sans + (ex. 33612345678) ; vide = pas de bouton WhatsApp (le 03 22 22 00 15 est un fixe). payment.enabled : paiement en ligne (Stripe), désactivé par défaut. order.lunch : fenêtre de retrait des commandes du midi. apero : fenêtre des réservations apéro (jusqu'à 1 h avant la fermeture).",
+  "name": "Le Piccassiette",
+  "fullName": "Le Piccassiette · Bistro",
+  "url": "https://le-piccassiette.vercel.app",
+  "phone": "03 22 22 00 15",
+  "phoneIntl": "+33322220015",
+  "whatsapp": "",
+  "email": "lepiccassiette.amiens@gmail.com",
+  "address": { "street": "9 rue Duméril", "postalCode": "80000", "city": "Amiens", "region": "Hauts-de-France", "country": "FR" },
+  "geo": { "lat": 49.89268, "lng": 2.29636 },
+  "mapsUrl": "https://www.google.com/maps/search/?api=1&query=Le+Piccassiette+9+rue+Dum%C3%A9ril+80000+Amiens",
+  "mapsEmbed": "https://www.google.com/maps?q=Le+Piccassiette,+9+rue+Dum%C3%A9ril,+80000+Amiens&z=16&output=embed",
+  "facebook": "https://www.facebook.com/piccassiette/",
+  "instagram": "",
+  "rating": { "value": 4.8, "count": 53, "source": "Google", "checked": "2026-11-10" },
+  "order": { "lunch": ["11:30", "14:00"], "minutesAhead": 20, "stepMinutes": 15, "daysAhead": 6, "maxPerLine": 15 },
+  "apero": { "from": "17:30", "stepMinutes": 30, "daysAhead": 30, "maxGuests": 20 },
+  "payment": { "enabled": false, "provider": "stripe" },
+  "legal": { "company": "Le Piccassiette", "siret": "", "director": "", "host": "Vercel Inc., 440 N Barranca Ave #4133, Covina, CA 91723, États-Unis" }
+}

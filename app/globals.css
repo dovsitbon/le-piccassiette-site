@@ -1,0 +1,416 @@
+@import "tailwindcss";
+
+/* Polices en local (public/fonts) : Fraunces (axe SOFT, lettres arrondies et joyeuses) pour les titres, Jost pour le texte. */
+@font-face {
+  font-family: "Fraunces Local";
+  src: url("/fonts/fraunces-latin-soft-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Jost Local";
+  src: url("/fonts/jost-latin-wght-normal.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  /* Charte : bleu canard, moutarde, corail, crème, encre, et le bois du comptoir en touche. */
+  --color-cream: #faf3e7;
+  --color-cream-deep: #f1e5d0;
+  --color-paper: #fffaf1;
+  --color-teal: #1f5f6b;
+  --color-teal-deep: #164852;
+  --color-teal-soft: #d6e5e3;
+  --color-mustard: #e0a82e;
+  --color-mustard-soft: #f5e2b0;
+  --color-coral: #e2674a;
+  /* Corail foncé pour le petit texte : 5:1 sur crème */
+  --color-coral-ink: #a8402a;
+  --color-coral-soft: #f7d9cf;
+  --color-wood: #8b5e3c;
+  --color-ink: #22201e;
+  /* Texte courant : 7:1 sur crème */
+  --color-muted: #554e46;
+  --color-line: #e6d8c0;
+
+  --font-body: "Jost Local", system-ui, sans-serif;
+  --font-display: "Fraunces Local", Georgia, serif;
+
+  --ease-pop: cubic-bezier(0.34, 1.4, 0.64, 1);
+  --ease-soft: cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+
+@layer base {
+  html {
+    -webkit-text-size-adjust: 100%;
+    color-scheme: light;
+    scroll-padding-top: 6rem;
+  }
+  body {
+    background: var(--color-cream);
+    color: var(--color-ink);
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    -webkit-font-smoothing: antialiased;
+  }
+  a,
+  button,
+  label,
+  select,
+  input,
+  summary {
+    touch-action: manipulation;
+    -webkit-tap-highlight-color: transparent;
+  }
+  h1,
+  h2,
+  h3 {
+    text-wrap: balance;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  ::selection {
+    background: var(--color-mustard);
+    color: var(--color-ink);
+  }
+  :focus-visible {
+    outline: 2px solid var(--color-teal);
+    outline-offset: 3px;
+    border-radius: 6px;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  input,
+  select,
+  textarea {
+    font: inherit;
+  }
+}
+
+@layer components {
+  .eyebrow {
+    font-family: var(--font-body);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-coral-ink);
+  }
+  .display {
+    font-family: var(--font-display);
+    font-weight: 750;
+    font-variation-settings: "SOFT" 100;
+    line-height: 0.98;
+    letter-spacing: -0.02em;
+  }
+  .lead {
+    font-size: 1.125rem;
+    line-height: 1.6;
+    color: var(--color-muted);
+  }
+  .btn,
+  .btn-order,
+  .btn-line,
+  .btn-light {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.55rem;
+    min-height: 3rem;
+    padding: 0.7rem 1.45rem;
+    border-radius: 999px;
+    font-family: var(--font-body);
+    font-size: 1.0625rem;
+    font-weight: 600;
+    line-height: 1.1;
+    transition:
+      background-color 0.2s var(--ease-soft),
+      color 0.2s var(--ease-soft),
+      border-color 0.2s var(--ease-soft),
+      transform 0.25s var(--ease-pop);
+  }
+  .btn:active,
+  .btn-order:active,
+  .btn-line:active,
+  .btn-light:active {
+    transform: scale(0.97);
+  }
+  .btn {
+    background: var(--color-teal);
+    border: 2px solid var(--color-teal);
+    color: var(--color-cream);
+  }
+  .btn:hover {
+    background: var(--color-teal-deep);
+    border-color: var(--color-teal-deep);
+  }
+  /* Le bouton de commande : moutarde et encre, repérable partout */
+  .btn-order {
+    background: var(--color-mustard);
+    border: 2px solid var(--color-mustard);
+    color: var(--color-ink);
+  }
+  .btn-order:hover {
+    background: #cf9822;
+    border-color: #cf9822;
+  }
+  .btn-line {
+    border: 2px solid currentColor;
+  }
+  .btn-line:hover {
+    background: var(--color-ink);
+    border-color: var(--color-ink);
+    color: var(--color-cream);
+  }
+  .btn-light {
+    background: var(--color-cream);
+    border: 2px solid var(--color-cream);
+    color: var(--color-ink);
+  }
+  .btn-light:hover {
+    background: var(--color-mustard);
+    border-color: var(--color-mustard);
+  }
+  .btn:disabled,
+  .btn-order:disabled {
+    opacity: 0.6;
+    cursor: progress;
+  }
+  .link-line {
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 0.22em;
+    text-decoration-color: var(--color-mustard);
+    transition: text-decoration-color 0.2s;
+  }
+  .link-line:hover {
+    text-decoration-color: currentColor;
+  }
+
+  .field {
+    width: 100%;
+    min-height: 3rem;
+    border: 2px solid var(--color-line);
+    border-radius: 12px;
+    background: var(--color-paper);
+    padding: 0.6rem 0.9rem;
+    font-size: 1rem;
+    color: var(--color-ink);
+    transition: border-color 0.2s;
+  }
+  select.field {
+    appearance: none;
+    background: var(--color-paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='%231F5F6B' stroke-width='2.4' stroke-linecap='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E") no-repeat right 0.8rem center / 1.1rem;
+    padding-inline-end: 2.4rem;
+    cursor: pointer;
+  }
+  .field:focus {
+    outline: none;
+    border-color: var(--color-teal);
+  }
+  .field[aria-invalid="true"] {
+    border-color: var(--color-coral-ink);
+  }
+  .field::placeholder {
+    color: #8a8276;
+  }
+  .label {
+    display: block;
+    margin-bottom: 0.4rem;
+    font-size: 0.9375rem;
+    font-weight: 600;
+    color: var(--color-muted);
+  }
+  .chip {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.45rem;
+    min-height: 2.75rem;
+    padding: 0.45rem 1rem;
+    border: 2px solid var(--color-line);
+    border-radius: 999px;
+    background: var(--color-paper);
+    font-size: 0.9375rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition:
+      border-color 0.2s,
+      background-color 0.2s,
+      color 0.2s;
+  }
+  .chip:hover {
+    border-color: var(--color-teal);
+  }
+  .chip:has(input:checked) {
+    border-color: var(--color-teal);
+    background: var(--color-teal);
+    color: var(--color-cream);
+  }
+  .chip:has(input:focus-visible) {
+    outline: 2px solid var(--color-teal);
+    outline-offset: 3px;
+  }
+  .tag {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    line-height: 1.5;
+    background: var(--color-teal-soft);
+    color: var(--color-teal-deep);
+  }
+  .tag-season {
+    background: var(--color-mustard-soft);
+    color: #5c4210;
+  }
+  .tag-share {
+    background: var(--color-coral-soft);
+    color: var(--color-coral-ink);
+  }
+
+  .card {
+    border-radius: 22px;
+    overflow: hidden;
+  }
+  .zoom {
+    position: relative;
+    overflow: hidden;
+  }
+  .zoom img {
+    transition: transform 0.6s var(--ease-soft);
+  }
+  .zoom:hover img,
+  .group:hover .zoom img {
+    transform: scale(1.03);
+  }
+}
+
+/* Apparition au défilement (components/Reveal.tsx) : courte et franche */
+html.js .reveal:not(.in) {
+  opacity: 0;
+  transform: translateY(var(--reveal-y, 18px));
+}
+.reveal {
+  transition:
+    opacity 0.55s var(--ease-soft) var(--reveal-delay, 0s),
+    transform 0.55s var(--ease-soft) var(--reveal-delay, 0s);
+}
+.fade-in {
+  animation: fade-in 0.3s var(--ease-soft) both;
+}
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
+.rise {
+  animation: rise 0.6s var(--ease-soft) both;
+}
+@keyframes rise {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+}
+
+/* Lenis */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+.lenis.lenis-stopped {
+  overflow: hidden;
+}
+
+/* ——— Ouverture (1,2 s) : fond crème, les éclats de mosaïque se posent un à un et forment l'assiette,
+   « LE PICCASSIETTE » apparaît, puis fondu sur le hero. ——— */
+.intro-curtain {
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  background: var(--color-cream);
+  animation: intro-out 0.25s ease-out 0.95s forwards;
+}
+html.intro-seen .intro-curtain {
+  display: none;
+}
+@keyframes intro-out {
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+.intro-shard {
+  opacity: 0;
+  transform-box: fill-box;
+  transform-origin: center;
+  transform: translate(var(--dx), var(--dy)) rotate(var(--rot)) scale(1.25);
+  animation: intro-shard 0.26s var(--ease-pop) var(--d) forwards;
+}
+@keyframes intro-shard {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.intro-rim {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: intro-rim 0.3s var(--ease-soft) 0.5s forwards;
+}
+@keyframes intro-rim {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
+.intro-word {
+  opacity: 0;
+  transform: translateY(8px);
+  animation: intro-word 0.25s var(--ease-soft) 0.66s forwards;
+}
+@keyframes intro-word {
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+
+/* FAQ */
+details > summary {
+  list-style: none;
+  cursor: pointer;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] .faq-plus {
+  transform: rotate(45deg);
+}
+.faq-plus {
+  transition: transform 0.25s var(--ease-pop);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .intro-curtain {
+    display: none;
+  }
+  html.js .reveal:not(.in) {
+    opacity: 1;
+    transform: none;
+  }
+}

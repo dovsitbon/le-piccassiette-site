@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "title": "Bistro, bo bun, banh mi et rhums arrangés à Amiens | Le Piccassiette",
+    "description": "Le Piccassiette, bistro du 9 rue Duméril à Amiens : sandwichs, bo bun et banh mi le midi, à emporter ou sur place, apéro, planches et rhums arrangés maison le soir. 4,8/5 sur Google.",
+    "ogAlt": "Le Piccassiette, bistro rue Duméril à Amiens"
+  },
+  "nav": {
+    "skip": "Aller au contenu",
+    "home": "Le Piccassiette, accueil",
+    "menu": "Menu",
+    "close": "Fermer le menu",
+    "lang": "Langue",
+    "call": "Appeler",
+    "route": "Itinéraire",
+    "midi": "Le midi",
+    "apero": "L'apéro",
+    "carte": "La carte",
+    "infos": "Infos",
+    "orderCta": "Commander pour midi",
+    "orderShort": "Commander",
+    "facebook": "Le Piccassiette sur Facebook"
+  },
+  "announce": { "close": "Fermer le bandeau" },
+  "intro": { "skip": "Passer" },
+  "status": {
+    "open": "Ouvert maintenant",
+    "closed": "Fermé en ce moment",
+    "until": "jusqu'à {time}",
+    "opens": "ouvre {day} à {time}",
+    "today": "aujourd'hui",
+    "tomorrow": "demain"
+  },
+  "hero": {
+    "eyebrow": "Bistro · Midi & apéro · Rue Duméril, Amiens",
+    "title": "Midi gourmand, soir à l'apéro.",
+    "sub": "Bo bun, banh mi et sandwichs maison à midi. Planches et rhums arrangés quand le soleil se couche.",
+    "ctaOrder": "Commander pour midi",
+    "ctaMenu": "Voir la carte",
+    "rating": "{value}/5",
+    "ratingCount": "{count} avis Google",
+    "ratingNote": "Note Google relevée le {date}",
+    "photoNote": "Emplacement de la photo principale : la façade ou un bo bun, à prendre sur place"
+  },
+  "tiles": {
+    "title": "Ce qu'on sert",
+    "items": {
+      "sandwichs": "Sandwichs",
+      "bobun": "Bo bun",
+      "banhmi": "Banh mi",
+      "moment": "Plats du moment",
+      "apero": "Apéro & planches",
+      "rhums": "Rhums arrangés"
+    }
+  },
+  "services": {
+    "title": "En bref",
+    "items": [
+      { "title": "Le midi à emporter", "text": "Commandez en ligne, passez prendre." },
+      { "title": "L'apéro", "text": "Planches et verres, mardi, jeudi et vendredi soir." },
+      { "title": "Rhums arrangés maison", "text": "Macérés ici, servis au verre." },
+      { "title": "03 22 22 00 15", "text": "Une question ? On décroche." }
+    ]
+  },
+  "today": {
+    "eyebrow": "Plat du moment",
+    "title": "Aujourd'hui à l'ardoise",
+    "noEntry": "Demandez l'ardoise.",
+    "priceBoard": "Prix à l'ardoise",
+    "call": "Appeler le bistro"
+  },
+  "carte": {
+    "eyebrow": "La carte",
+    "title": "De quoi tenir jusqu'au soir.",
+    "intro": "Le midi, on mange. Le soir, on trinque. Les prix sont sur la carte, en vrai texte, pas en photo floue.",
+    "seeFull": "Toute la carte",
+    "tabsLabel": "Rubriques de la carte",
+    "tabs": { "midi": "Le midi", "moment": "Plats du moment", "apero": "Apéro", "rhums": "Rhums arrangés" },
+    "priceOnSite": "Prix à l'ardoise",
+    "from": "à partir de {price}",
+    "add": "Commander",
+    "addLabel": "Ajouter {name} à la commande du midi",
+    "allergens": "Allergènes : la liste est disponible au comptoir. Une allergie ? Dites-le à la commande.",
+    "checked": "Carte mise à jour le {date}.",
+    "rhumsTitle": "Les parfums du moment",
+    "rhumsEmpty": "Ils changent au fil des bocaux : la liste est à l'ardoise, derrière le bar.",
+    "abuse": "L'abus d'alcool est dangereux pour la santé, à consommer avec modération."
+  },
+  "tags": {
+    "house": "Fait maison",
+    "season": "Selon la saison",
+    "share": "À partager",
+    "veggie": "Version végé possible"
+  },
+  "products": {
+    "banh-mi": { "name": "Banh mi", "desc": "Baguette croustillante, garniture marinée, crudités croquantes et herbes fraîches. Le sandwich vietnamien, fait ici." },
+    "bo-bun": { "name": "Bo bun", "desc": "Vermicelles de riz, crudités, herbes, cacahuètes et sauce maison. Frais, copieux, et ça se mange aussi au bureau." },
+    "sandwich": { "name": "Le sandwich du moment", "desc": "Un sandwich maison dont la recette tourne au gré du marché. Demandez celui du jour." },
+    "salade": { "name": "La grande salade", "desc": "Une salade composée bien garnie, pour manger frais sans rester sur sa faim." },
+    "plat-du-jour": { "name": "Le plat du jour", "desc": "Le plat chaud écrit sur l'ardoise ce matin. Un coup de fil et on vous dit ce que c'est." },
+    "tartiflette": { "name": "Tartiflette", "desc": "Pommes de terre, reblochon fondant, lardons et oignons. Elle revient dès qu'il fait froid." },
+    "planche": { "name": "La planche à partager", "desc": "De quoi grignoter à plusieurs avec un verre. Petite ou grande, selon l'appétit de la tablée." },
+    "verres": { "name": "Vins, bières et softs", "desc": "Au verre ou à la bouteille, pour accompagner la planche ou finir la semaine." },
+    "rhum-arrange": { "name": "Rhum arrangé maison", "desc": "Fruits, épices et rhum, laissés à macérer des semaines dans nos bocaux. Servi au verre." }
+  },
+  "blocks": {
+    "midi": {
+      "eyebrow": "Le midi",
+      "title": "Rapide et gourmand.",
+      "text": "Banh mi, bo bun, sandwich du moment. Commandez avant de partir du bureau, c'est prêt quand vous arrivez.",
+      "cta": "Commander"
+    },
+    "apero": {
+      "eyebrow": "L'apéro",
+      "title": "Une planche, un rhum arrangé, et la semaine est finie.",
+      "text": "Le soir, le bistro change d'humeur. Les bocaux sortent, les planches arrivent. Jusqu'à 23 h 30 le vendredi.",
+      "cta": "Voir la carte"
+    },
+    "privat": {
+      "eyebrow": "Privatiser",
+      "title": "Un anniversaire ? Le bistro est à vous.",
+      "text": "Pot de départ, anniversaire, retrouvailles. Dites-nous la date et le nombre, on regarde ce qui est possible.",
+      "cta": "Nous contacter"
+    }
+  },
+  "reviews": {
+    "eyebrow": "Ils en parlent",
+    "title": "Noté {value}/5 par {count} clients sur Google.",
+    "text": "Ce qui revient le plus : le bo bun, le banh mi, les sandwichs, la tartiflette, les rhums arrangés et l'accueil.",
+    "cta": "Lire les avis sur Google"
+  },
+  "infos": {
+    "eyebrow": "Infos pratiques",
+    "title": "Rue Duméril, en plein centre.",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "hours": "Horaires",
+    "access": "Accès et stationnement",
+    "accessText": "En plein centre-ville d'Amiens. Le plus simple : à pied, à vélo ou en bus. Plusieurs parkings publics du centre sont à quelques minutes de marche.",
+    "route": "Itinéraire",
+    "mapTitle": "Le Piccassiette sur la carte",
+    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "closed": "Fermé"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "Les questions qu'on nous pose.",
+    "items": [
+      { "q": "Quels sont vos horaires ?", "a": "Mardi et jeudi de 9 h 30 à 22 h, mercredi de 9 h 30 à 14 h 30, vendredi de 9 h 30 à 23 h 30 et samedi de 10 h 30 à 15 h. Fermé le dimanche et le lundi. Les fermetures exceptionnelles sont annoncées en haut du site." },
+      { "q": "Comment commander pour midi ?", "a": "Choisissez vos plats et votre heure de retrait dans le formulaire « Commander pour midi », ou appelez le 03 22 22 00 15. Vous passez prendre, vous payez sur place." },
+      { "q": "Combien de temps faut-il pour préparer une commande ?", "a": "Comptez au moins 20 minutes. Le formulaire ne propose que les heures encore possibles, entre 11 h 30 et 14 h." },
+      { "q": "Faut-il réserver pour l'apéro ?", "a": "Ce n'est pas obligatoire, mais c'est plus sûr le vendredi soir et dès que vous venez à plusieurs. Le formulaire « Réserver pour l'apéro » prend deux minutes." },
+      { "q": "Comment payer ?", "a": "Sur place, au retrait de la commande ou en fin de repas." },
+      { "q": "Peut-on privatiser le bistro pour un anniversaire ?", "a": "On en parle volontiers. Laissez la date et le nombre de personnes dans le formulaire apéro, ou appelez-nous : on regarde ensemble ce qui est possible." }
+    ]
+  },
+  "order": {
+    "eyebrow": "Le midi à emporter",
+    "title": "Commander pour midi",
+    "intro": "Vos plats, votre heure, votre nom. On prépare, vous passez prendre, vous payez sur place.",
+    "itemsTitle": "Vos plats",
+    "dish": "Plat",
+    "quantity": "Quantité",
+    "addLine": "Ajouter un plat",
+    "removeLine": "Retirer ce plat",
+    "pickupTitle": "Retrait",
+    "day": "Jour",
+    "time": "Heure de retrait",
+    "today": "Aujourd'hui",
+    "tomorrow": "Demain",
+    "noSlots": "Plus de créneau ce jour-là. Choisissez un autre jour.",
+    "noDays": "Aucun créneau de retrait dans les prochains jours. Appelez-nous.",
+    "prefsTitle": "Remarques",
+    "prefs": { "noCoriander": "Sans coriandre", "veggie": "Version végé si possible", "mild": "Pas trop épicé" },
+    "message": "Une précision, une allergie ?",
+    "messagePh": "Ex. : sans cacahuètes, couverts en plus…",
+    "contactTitle": "Vos coordonnées",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail (facultatif)",
+    "emailHint": "Pour recevoir le récapitulatif.",
+    "total": "Total",
+    "totalNote": "Les prix sont à l'ardoise : le total exact vous est donné au retrait.",
+    "submit": "Envoyer la commande",
+    "sending": "Envoi…",
+    "payNote": "Paiement sur place, au retrait.",
+    "payOnline": "Payer en ligne",
+    "callTitle": "Plus simple au téléphone ?",
+    "callText": "Pendant les heures d'ouverture, on décroche.",
+    "callCta": "Appeler",
+    "whatsapp": "Envoyer sur WhatsApp",
+    "errors": {
+      "lines": "Choisissez au moins un plat.",
+      "day": "Choisissez un jour.",
+      "time": "Choisissez une heure de retrait.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "send": "La commande n'est pas partie. Appelez-nous, c'est plus sûr."
+    },
+    "done": {
+      "title": "C'est noté !",
+      "text": "Votre commande est partie au bistro. On vous rappelle s'il y a un souci.",
+      "pendingTitle": "Dernière étape : un appel",
+      "pendingText": "La commande en ligne n'est pas encore branchée. Appelez-nous pour la confirmer, voici le récapitulatif.",
+      "mail": "Le récapitulatif part à {email}.",
+      "again": "Nouvelle commande"
+    },
+    "mail": {
+      "subject": "Commande du midi",
+      "title": "Nouvelle commande à emporter",
+      "lines": "Plats",
+      "pickup": "Retrait",
+      "prefs": "Remarques",
+      "total": "Total estimé",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "message": "Message",
+      "lang": "Langue du client",
+      "confirmSubject": "Votre commande au Piccassiette",
+      "confirmIntro": "Bonjour {name}, merci pour votre commande ! La voici :",
+      "confirmOutro": "Le Piccassiette · 9 rue Duméril, Amiens · 03 22 22 00 15. Paiement sur place, au retrait."
+    }
+  },
+  "resa": {
+    "eyebrow": "Le soir",
+    "title": "Réserver pour l'apéro",
+    "intro": "Une table pour l'apéro, un groupe, un anniversaire : dites-nous quand et combien.",
+    "date": "Date",
+    "time": "Heure d'arrivée",
+    "guests": "Nombre de personnes",
+    "occasion": "Une occasion ? (anniversaire, pot de départ…)",
+    "occasionPh": "Ex. : anniversaire, on voudrait privatiser…",
+    "name": "Nom",
+    "phone": "Téléphone",
+    "email": "E-mail (facultatif)",
+    "emailHint": "Pour recevoir la confirmation de votre demande.",
+    "submit": "Envoyer la demande",
+    "sending": "Envoi…",
+    "note": "Le bistro vous rappelle pour confirmer.",
+    "noTimes": "Pas d'apéro ce jour-là : choisissez un mardi, un jeudi ou un vendredi.",
+    "errors": {
+      "date": "Choisissez une date.",
+      "time": "Choisissez une heure.",
+      "guests": "Indiquez le nombre de personnes.",
+      "name": "Indiquez votre nom.",
+      "phone": "Indiquez un numéro de téléphone valide.",
+      "email": "Cette adresse e-mail ne semble pas valide.",
+      "send": "La demande n'est pas partie. Appelez-nous, c'est plus sûr."
+    },
+    "done": {
+      "title": "Demande envoyée !",
+      "text": "Le bistro vous rappelle pour confirmer la table.",
+      "pendingTitle": "Dernière étape : un appel",
+      "pendingText": "Les réservations en ligne ne sont pas encore branchées. Appelez-nous pour confirmer, voici le récapitulatif.",
+      "mail": "Une copie part à {email}.",
+      "again": "Nouvelle demande"
+    },
+    "mail": {
+      "subject": "Réservation apéro",
+      "title": "Nouvelle demande pour l'apéro",
+      "date": "Date",
+      "time": "Heure",
+      "guests": "Personnes",
+      "occasion": "Occasion",
+      "name": "Nom",
+      "phone": "Téléphone",
+      "email": "E-mail",
+      "lang": "Langue du client",
+      "confirmSubject": "Votre demande au Piccassiette",
+      "confirmIntro": "Bonjour {name}, merci ! Votre demande est bien arrivée :",
+      "confirmOutro": "Ce n'est pas encore une confirmation : le bistro vous rappelle. Le Piccassiette · 9 rue Duméril, Amiens · 03 22 22 00 15."
+    }
+  },
+  "footer": {
+    "tagline": "Bistro de quartier, rue Duméril. Le midi on mange, le soir on trinque.",
+    "menu": "La carte",
+    "order": "Commander pour midi",
+    "legal": "Mentions légales",
+    "rights": "© {year} Le Piccassiette, Amiens"
+  },
+  "pages": {
+    "carte": {
+      "slug": "carte",
+      "title": "La carte",
+      "metaTitle": "La carte : bo bun, banh mi, sandwichs, apéro et rhums arrangés | Le Piccassiette, Amiens",
+      "metaDescription": "La carte du Piccassiette, bistro rue Duméril à Amiens : banh mi, bo bun, sandwichs et plats du moment le midi, planches et rhums arrangés maison le soir.",
+      "eyebrow": "Le Piccassiette · Amiens",
+      "lead": "Le midi, l'apéro, les rhums arrangés. Tout est là, avec les prix."
+    },
+    "commander": {
+      "slug": "commander",
+      "title": "Commander et réserver",
+      "metaTitle": "Commander pour midi et réserver l'apéro | Le Piccassiette, Amiens",
+      "metaDescription": "Commandez votre bo bun, banh mi ou sandwich à emporter pour midi, ou réservez une table pour l'apéro au Piccassiette, 9 rue Duméril à Amiens.",
+      "eyebrow": "Le Piccassiette · Amiens",
+      "lead": "Deux formulaires, deux minutes. Ou un appel au 03 22 22 00 15."
+    },
+    "midi": {
+      "slug": "bo-bun-banh-mi-amiens",
+      "title": "Bo bun et banh mi à Amiens",
+      "metaTitle": "Bo bun et banh mi à Amiens, sur place ou à emporter | Le Piccassiette",
+      "metaDescription": "Envie d'un bo bun ou d'un banh mi à Amiens ? Le Piccassiette, rue Duméril, les prépare chaque midi, sur place ou à emporter. Commande en ligne.",
+      "eyebrow": "Le midi rue Duméril",
+      "lead": "Un bol de bo bun, un banh mi qui craque. À midi, en centre-ville d'Amiens, le Piccassiette s'occupe de votre pause déjeuner.",
+      "sections": [
+        { "h": "Le bo bun", "p": "Des vermicelles de riz, des crudités, des herbes fraîches, des cacahuètes et une sauce maison. C'est frais, c'est copieux, et c'est l'un des plats que nos clients citent le plus." },
+        { "h": "Le banh mi", "p": "Le sandwich vietnamien : une baguette croustillante, une garniture marinée, des légumes croquants et des herbes. On le prépare ici, à la commande." },
+        { "h": "Sur place ou à emporter", "p": "Installez-vous au bistro ou commandez en ligne : vous choisissez votre heure de retrait entre 11 h 30 et 14 h, vous passez prendre et vous payez sur place." },
+        { "h": "Et aussi", "p": "Le sandwich du moment, une grande salade, le plat du jour et, quand il fait froid, la tartiflette." }
+      ],
+      "cta": "Commander pour midi"
+    },
+    "apero": {
+      "slug": "apero-rhum-arrange-amiens",
+      "title": "Apéro et rhums arrangés à Amiens",
+      "metaTitle": "Apéro et rhums arrangés maison à Amiens | Le Piccassiette, bistro",
+      "metaDescription": "Un apéro à Amiens ? Planches à partager et rhums arrangés maison au Piccassiette, rue Duméril. Le mardi et le jeudi jusqu'à 22 h, le vendredi jusqu'à 23 h 30.",
+      "eyebrow": "Le soir rue Duméril",
+      "lead": "Des bocaux de rhum qui macèrent derrière le bar, des planches à partager, une ambiance de bistro de quartier. L'apéro, version Piccassiette.",
+      "sections": [
+        { "h": "Les rhums arrangés maison", "p": "Des fruits, des épices, du rhum, et beaucoup de patience. Les parfums changent au fil des bocaux : demandez ceux du moment, on vous fait goûter." },
+        { "h": "Les planches", "p": "De quoi grignoter à plusieurs avec un verre de vin, une bière ou un soft. Petite ou grande, selon la tablée." },
+        { "h": "Quand venir", "p": "Le mardi et le jeudi jusqu'à 22 h, le vendredi jusqu'à 23 h 30. Le vendredi soir, mieux vaut réserver." },
+        { "h": "Un anniversaire, un pot de départ ?", "p": "Le bistro peut accueillir votre groupe. Dites-nous la date et le nombre de personnes, on regarde ensemble." }
+      ],
+      "cta": "Réserver pour l'apéro"
+    },
+    "legal": {
+      "slug": "mentions-legales",
+      "title": "Mentions légales",
+      "metaTitle": "Mentions légales | Le Piccassiette",
+      "editor": "Éditeur du site",
+      "siret": "SIRET",
+      "director": "Directeur de la publication",
+      "host": "Hébergement",
+      "data": "Données personnelles",
+      "dataText": "Les informations envoyées par les formulaires (nom, téléphone, e-mail, commande ou réservation) servent uniquement à traiter votre demande. Elles ne sont ni revendues ni utilisées à d'autres fins. Pour les consulter ou les faire supprimer : {email}.",
+      "photos": "Photos et textes",
+      "photosText": "Photos, logo et textes : Le Piccassiette. Toute reproduction sans accord est interdite.",
+      "toConfirm": "à remplir"
+    }
+  },
+  "alt": {
+    "hero": "La salle du Piccassiette, bistro rue Duméril à Amiens",
+    "facade": "La façade du Piccassiette, 9 rue Duméril à Amiens",
+    "banh-mi": "Un banh mi du Piccassiette",
+    "bo-bun": "Un bo bun du Piccassiette",
+    "sandwich": "Le sandwich du moment au Piccassiette",
+    "salade": "La grande salade du Piccassiette",
+    "plat-du-jour": "Le plat du jour du Piccassiette",
+    "tartiflette": "La tartiflette du Piccassiette",
+    "planche": "Une planche à partager pour l'apéro",
+    "verres": "Des verres au bar du Piccassiette",
+    "rhums-arranges": "Les bocaux de rhums arrangés maison derrière le bar",
+    "salle": "La salle du Piccassiette et sa mosaïque",
+    "equipe": "L'équipe du Piccassiette derrière le bar"
+  }
+}

@@ -1,0 +1,16 @@
+# Le Piccassiette
+
+> Bistro de quartier au 9 rue Duméril, 80000 Amiens (centre-ville). Le midi : banh mi, bo bun, sandwichs maison, grande salade, plat du jour et tartiflette en saison, sur place ou à emporter (commande en ligne, retrait entre 11 h 30 et 14 h, paiement sur place). Le soir : apéro, planches à partager et rhums arrangés maison. Note Google 4,8/5 (53 avis, relevée le 10 novembre 2026).
+
+- Horaires (à confirmer) : mardi et jeudi 9 h 30 – 22 h, mercredi 9 h 30 – 14 h 30, vendredi 9 h 30 – 23 h 30, samedi 10 h 30 – 15 h ; fermé dimanche et lundi.
+- Téléphone : 03 22 22 00 15 (+33 3 22 22 00 15)
+- Prix : à l'ardoise (environ 10 à 20 € par personne).
+
+## Pages
+
+- [Accueil](https://le-piccassiette.vercel.app/fr)
+- [La carte](https://le-piccassiette.vercel.app/fr/carte)
+- [Commander pour midi et réserver l'apéro](https://le-piccassiette.vercel.app/fr/commander)
+- [Bo bun et banh mi à Amiens](https://le-piccassiette.vercel.app/fr/bo-bun-banh-mi-amiens)
+- [Apéro et rhums arrangés à Amiens](https://le-piccassiette.vercel.app/fr/apero-rhum-arrange-amiens)
+- [English version](https://le-piccassiette.vercel.app/en)

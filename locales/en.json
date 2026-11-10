@@ -1,0 +1,359 @@
+{
+  "meta": {
+    "title": "Bistro, bo bun, banh mi and infused rum in Amiens | Le Piccassiette",
+    "description": "Le Piccassiette, a neighbourhood bistro at 9 rue Duméril in Amiens: sandwiches, bo bun and banh mi at lunch, to take away or eat in, then drinks, sharing boards and house-infused rum in the evening. Rated 4.8/5 on Google.",
+    "ogAlt": "Le Piccassiette, bistro on rue Duméril in Amiens"
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "home": "Le Piccassiette, home",
+    "menu": "Menu",
+    "close": "Close menu",
+    "lang": "Language",
+    "call": "Call",
+    "route": "Directions",
+    "midi": "Lunch",
+    "apero": "Drinks",
+    "carte": "The menu",
+    "infos": "Info",
+    "orderCta": "Order for lunch",
+    "orderShort": "Order",
+    "facebook": "Le Piccassiette on Facebook"
+  },
+  "announce": { "close": "Close banner" },
+  "intro": { "skip": "Skip" },
+  "status": {
+    "open": "Open now",
+    "closed": "Closed right now",
+    "until": "until {time}",
+    "opens": "opens {day} at {time}",
+    "today": "today",
+    "tomorrow": "tomorrow"
+  },
+  "hero": {
+    "eyebrow": "Bistro · Lunch & drinks · Rue Duméril, Amiens",
+    "title": "Big lunches, easy evenings.",
+    "sub": "Bo bun, banh mi and home-made sandwiches at lunchtime. Sharing boards and infused rum once the sun goes down.",
+    "ctaOrder": "Order for lunch",
+    "ctaMenu": "See the menu",
+    "rating": "{value}/5",
+    "ratingCount": "{count} Google reviews",
+    "ratingNote": "Google rating checked on {date}",
+    "photoNote": "Main photo slot: the shopfront or a bo bun, to be shot on site"
+  },
+  "tiles": {
+    "title": "What we serve",
+    "items": {
+      "sandwichs": "Sandwiches",
+      "bobun": "Bo bun",
+      "banhmi": "Banh mi",
+      "moment": "Seasonal dishes",
+      "apero": "Drinks & boards",
+      "rhums": "Infused rum"
+    }
+  },
+  "services": {
+    "title": "In short",
+    "items": [
+      { "title": "Lunch to take away", "text": "Order online, pick it up." },
+      { "title": "Evening drinks", "text": "Boards and glasses, Tuesday, Thursday and Friday nights." },
+      { "title": "House-infused rum", "text": "Steeped here, served by the glass." },
+      { "title": "03 22 22 00 15", "text": "A question? We pick up." }
+    ]
+  },
+  "today": {
+    "eyebrow": "Dish of the moment",
+    "title": "On the board today",
+    "noEntry": "Ask about the board.",
+    "priceBoard": "Price on the board",
+    "call": "Call the bistro"
+  },
+  "carte": {
+    "eyebrow": "The menu",
+    "title": "Enough to keep you going till evening.",
+    "intro": "At lunch we eat. In the evening we raise a glass. Prices are right here in real text, not in a blurry photo.",
+    "seeFull": "Full menu",
+    "tabsLabel": "Menu sections",
+    "tabs": { "midi": "Lunch", "moment": "Seasonal dishes", "apero": "Drinks", "rhums": "Infused rum" },
+    "priceOnSite": "Price on the board",
+    "from": "from {price}",
+    "add": "Order",
+    "addLabel": "Add {name} to your lunch order",
+    "allergens": "Allergens: the list is available at the counter. Got an allergy? Tell us when you order.",
+    "checked": "Menu updated on {date}.",
+    "rhumsTitle": "Flavours of the moment",
+    "rhumsEmpty": "They change as the jars come and go: the list is on the board behind the bar.",
+    "abuse": "Please drink responsibly."
+  },
+  "tags": {
+    "house": "Home-made",
+    "season": "Seasonal",
+    "share": "To share",
+    "veggie": "Veggie option"
+  },
+  "products": {
+    "banh-mi": { "name": "Banh mi", "desc": "Crusty baguette, marinated filling, crunchy pickled veg and fresh herbs. The Vietnamese sandwich, made right here." },
+    "bo-bun": { "name": "Bo bun", "desc": "Rice vermicelli, raw veg, herbs, peanuts and our own sauce. Fresh, generous, and it travels well to the office." },
+    "sandwich": { "name": "Sandwich of the moment", "desc": "A home-made sandwich whose recipe follows the market. Ask what today's is." },
+    "salade": { "name": "The big salad", "desc": "A well-loaded mixed salad, for a fresh lunch that still fills you up." },
+    "plat-du-jour": { "name": "Dish of the day", "desc": "The hot dish chalked on the board this morning. Give us a ring and we'll tell you what it is." },
+    "tartiflette": { "name": "Tartiflette", "desc": "Potatoes, melting reblochon cheese, bacon and onions. It's back as soon as the weather turns cold." },
+    "planche": { "name": "Sharing board", "desc": "Something to nibble on with a drink. Small or large, depending on how hungry the table is." },
+    "verres": { "name": "Wine, beer and soft drinks", "desc": "By the glass or by the bottle, with a board or to wrap up the week." },
+    "rhum-arrange": { "name": "House-infused rum", "desc": "Fruit, spices and rum, left to steep for weeks in our jars. Served by the glass." }
+  },
+  "blocks": {
+    "midi": {
+      "eyebrow": "Lunch",
+      "title": "Quick, and properly good.",
+      "text": "Banh mi, bo bun, sandwich of the moment. Order before you leave the office and it's ready when you arrive.",
+      "cta": "Order"
+    },
+    "apero": {
+      "eyebrow": "Evening drinks",
+      "title": "A board, an infused rum, and the week is done.",
+      "text": "In the evening the bistro changes mood. The jars come out, the boards land on the tables. Until 11:30 pm on Fridays.",
+      "cta": "See the menu"
+    },
+    "privat": {
+      "eyebrow": "Private hire",
+      "title": "A birthday? The bistro is yours.",
+      "text": "Leaving drinks, birthdays, reunions. Tell us the date and how many of you, and we'll see what we can do.",
+      "cta": "Get in touch"
+    }
+  },
+  "reviews": {
+    "eyebrow": "What people say",
+    "title": "Rated {value}/5 by {count} guests on Google.",
+    "text": "What comes up most: the bo bun, the banh mi, the sandwiches, the tartiflette, the infused rum and the welcome.",
+    "cta": "Read the Google reviews"
+  },
+  "infos": {
+    "eyebrow": "Practical info",
+    "title": "Rue Duméril, right in the centre.",
+    "address": "Address",
+    "phone": "Phone",
+    "hours": "Opening hours",
+    "access": "Getting here and parking",
+    "accessText": "Right in the centre of Amiens. Easiest on foot, by bike or by bus. Several public car parks in the centre are a few minutes' walk away.",
+    "route": "Directions",
+    "mapTitle": "Le Piccassiette on the map",
+    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "closed": "Closed"
+  },
+  "faq": {
+    "eyebrow": "Questions",
+    "title": "The questions we get asked.",
+    "items": [
+      { "q": "What are your opening hours?", "a": "Tuesday and Thursday 9:30 am to 10 pm, Wednesday 9:30 am to 2:30 pm, Friday 9:30 am to 11:30 pm and Saturday 10:30 am to 3 pm. Closed on Sundays and Mondays. Any extra closures are announced at the top of the site." },
+      { "q": "How do I order for lunch?", "a": "Pick your dishes and a pickup time in the “Order for lunch” form, or call 03 22 22 00 15. You collect, you pay on site." },
+      { "q": "How long does an order take?", "a": "Allow at least 20 minutes. The form only offers times that are still possible, between 11:30 am and 2 pm." },
+      { "q": "Do I need to book for drinks?", "a": "You don't have to, but it's safer on Friday nights and whenever you come as a group. The “Book for drinks” form takes two minutes." },
+      { "q": "How do I pay?", "a": "On site, when you collect your order or at the end of your meal." },
+      { "q": "Can we hire the bistro for a birthday?", "a": "We're happy to talk about it. Leave the date and number of guests in the drinks form, or call us, and we'll see together what's possible." }
+    ]
+  },
+  "order": {
+    "eyebrow": "Lunch to take away",
+    "title": "Order for lunch",
+    "intro": "Your dishes, your time, your name. We cook, you collect, you pay on site.",
+    "itemsTitle": "Your dishes",
+    "dish": "Dish",
+    "quantity": "Quantity",
+    "addLine": "Add a dish",
+    "removeLine": "Remove this dish",
+    "pickupTitle": "Pickup",
+    "day": "Day",
+    "time": "Pickup time",
+    "today": "Today",
+    "tomorrow": "Tomorrow",
+    "noSlots": "No slots left that day. Pick another day.",
+    "noDays": "No pickup slots in the next few days. Give us a call.",
+    "prefsTitle": "Notes",
+    "prefs": { "noCoriander": "No coriander", "veggie": "Veggie if possible", "mild": "Not too spicy" },
+    "message": "Anything to add, any allergy?",
+    "messagePh": "E.g. no peanuts, extra cutlery…",
+    "contactTitle": "Your details",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "emailHint": "To get a summary of your order.",
+    "total": "Total",
+    "totalNote": "Prices are on the board: you'll get the exact total when you collect.",
+    "submit": "Send my order",
+    "sending": "Sending…",
+    "payNote": "Pay on site when you collect.",
+    "payOnline": "Pay online",
+    "callTitle": "Easier by phone?",
+    "callText": "During opening hours, we pick up.",
+    "callCta": "Call",
+    "whatsapp": "Send on WhatsApp",
+    "errors": {
+      "lines": "Choose at least one dish.",
+      "day": "Choose a day.",
+      "time": "Choose a pickup time.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "send": "Your order didn't go through. Please call us to be safe."
+    },
+    "done": {
+      "title": "Got it!",
+      "text": "Your order is on its way to the bistro. We'll call you if there's a problem.",
+      "pendingTitle": "One last step: a call",
+      "pendingText": "Online ordering isn't connected yet. Please call us to confirm, here's your summary.",
+      "mail": "A summary is on its way to {email}.",
+      "again": "New order"
+    },
+    "mail": {
+      "subject": "Lunch order",
+      "title": "New takeaway order",
+      "lines": "Dishes",
+      "pickup": "Pickup",
+      "prefs": "Notes",
+      "total": "Estimated total",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "message": "Message",
+      "lang": "Customer language",
+      "confirmSubject": "Your order at Le Piccassiette",
+      "confirmIntro": "Hello {name}, thanks for your order! Here it is:",
+      "confirmOutro": "Le Piccassiette · 9 rue Duméril, Amiens · +33 3 22 22 00 15. Pay on site when you collect."
+    }
+  },
+  "resa": {
+    "eyebrow": "Evenings",
+    "title": "Book for drinks",
+    "intro": "A table for drinks, a group, a birthday: tell us when and how many.",
+    "date": "Date",
+    "time": "Arrival time",
+    "guests": "Number of guests",
+    "occasion": "Any occasion? (birthday, leaving drinks…)",
+    "occasionPh": "E.g. birthday, we'd like to hire the place…",
+    "name": "Name",
+    "phone": "Phone",
+    "email": "Email (optional)",
+    "emailHint": "To get a copy of your request.",
+    "submit": "Send my request",
+    "sending": "Sending…",
+    "note": "The bistro will call you back to confirm.",
+    "noTimes": "No evening drinks that day: pick a Tuesday, Thursday or Friday.",
+    "errors": {
+      "date": "Choose a date.",
+      "time": "Choose a time.",
+      "guests": "Enter the number of guests.",
+      "name": "Please enter your name.",
+      "phone": "Please enter a valid phone number.",
+      "email": "This email address doesn't look right.",
+      "send": "Your request didn't go through. Please call us to be safe."
+    },
+    "done": {
+      "title": "Request sent!",
+      "text": "The bistro will call you back to confirm your table.",
+      "pendingTitle": "One last step: a call",
+      "pendingText": "Online booking isn't connected yet. Please call us to confirm, here's your summary.",
+      "mail": "A copy is on its way to {email}.",
+      "again": "New request"
+    },
+    "mail": {
+      "subject": "Drinks booking",
+      "title": "New drinks request",
+      "date": "Date",
+      "time": "Time",
+      "guests": "Guests",
+      "occasion": "Occasion",
+      "name": "Name",
+      "phone": "Phone",
+      "email": "Email",
+      "lang": "Customer language",
+      "confirmSubject": "Your request at Le Piccassiette",
+      "confirmIntro": "Hello {name}, thank you! Your request has arrived:",
+      "confirmOutro": "This isn't a confirmation yet: the bistro will call you back. Le Piccassiette · 9 rue Duméril, Amiens · +33 3 22 22 00 15."
+    }
+  },
+  "footer": {
+    "tagline": "Neighbourhood bistro on rue Duméril. At lunch we eat, in the evening we raise a glass.",
+    "menu": "The menu",
+    "order": "Order for lunch",
+    "legal": "Legal notice",
+    "rights": "© {year} Le Piccassiette, Amiens"
+  },
+  "pages": {
+    "carte": {
+      "slug": "menu",
+      "title": "The menu",
+      "metaTitle": "Menu: bo bun, banh mi, sandwiches, drinks and infused rum | Le Piccassiette, Amiens",
+      "metaDescription": "The menu at Le Piccassiette, a bistro on rue Duméril in Amiens: banh mi, bo bun, sandwiches and seasonal dishes at lunch, sharing boards and house-infused rum in the evening.",
+      "eyebrow": "Le Piccassiette · Amiens",
+      "lead": "Lunch, drinks, infused rum. It's all here, with the prices."
+    },
+    "commander": {
+      "slug": "order",
+      "title": "Order and book",
+      "metaTitle": "Order lunch and book evening drinks | Le Piccassiette, Amiens",
+      "metaDescription": "Order your bo bun, banh mi or sandwich to take away for lunch, or book a table for evening drinks at Le Piccassiette, 9 rue Duméril, Amiens.",
+      "eyebrow": "Le Piccassiette · Amiens",
+      "lead": "Two forms, two minutes. Or a call on +33 3 22 22 00 15."
+    },
+    "midi": {
+      "slug": "bo-bun-banh-mi-in-amiens",
+      "title": "Bo bun and banh mi in Amiens",
+      "metaTitle": "Bo bun and banh mi in Amiens, eat in or take away | Le Piccassiette",
+      "metaDescription": "Craving a bo bun or a banh mi in Amiens? Le Piccassiette on rue Duméril makes them every lunchtime, to eat in or take away. Order online.",
+      "eyebrow": "Lunch on rue Duméril",
+      "lead": "A bowl of bo bun, a banh mi with a proper crunch. At lunchtime in central Amiens, Le Piccassiette takes care of your break.",
+      "sections": [
+        { "h": "The bo bun", "p": "Rice vermicelli, raw veg, fresh herbs, peanuts and our own sauce. Fresh, generous, and one of the dishes our guests mention most." },
+        { "h": "The banh mi", "p": "The Vietnamese sandwich: a crusty baguette, a marinated filling, crunchy veg and herbs. We make it here, to order." },
+        { "h": "Eat in or take away", "p": "Grab a seat at the bistro or order online: choose a pickup time between 11:30 am and 2 pm, collect it and pay on site." },
+        { "h": "Also on", "p": "The sandwich of the moment, a big salad, the dish of the day and, when it gets cold, tartiflette." }
+      ],
+      "cta": "Order for lunch"
+    },
+    "apero": {
+      "slug": "drinks-infused-rum-amiens",
+      "title": "Drinks and infused rum in Amiens",
+      "metaTitle": "Evening drinks and house-infused rum in Amiens | Le Piccassiette, bistro",
+      "metaDescription": "Drinks in Amiens? Sharing boards and house-infused rum at Le Piccassiette, rue Duméril. Tuesday and Thursday until 10 pm, Friday until 11:30 pm.",
+      "eyebrow": "Evenings on rue Duméril",
+      "lead": "Jars of rum steeping behind the bar, boards to share, a proper neighbourhood bistro feel. Evening drinks, Piccassiette style.",
+      "sections": [
+        { "h": "House-infused rum", "p": "Fruit, spices, rum and a lot of patience. The flavours change as the jars come and go: ask what's on, we'll let you taste." },
+        { "h": "Sharing boards", "p": "Something to nibble on together with a glass of wine, a beer or a soft drink. Small or large, depending on the table." },
+        { "h": "When to come", "p": "Tuesday and Thursday until 10 pm, Friday until 11:30 pm. On Friday nights, booking is a good idea." },
+        { "h": "A birthday, leaving drinks?", "p": "The bistro can welcome your group. Tell us the date and the number of guests, and we'll work it out together." }
+      ],
+      "cta": "Book for drinks"
+    },
+    "legal": {
+      "slug": "legal",
+      "title": "Legal notice",
+      "metaTitle": "Legal notice | Le Piccassiette",
+      "editor": "Publisher",
+      "siret": "SIRET (company number)",
+      "director": "Publication director",
+      "host": "Hosting",
+      "data": "Personal data",
+      "dataText": "The information sent through the forms (name, phone, email, order or booking) is only used to handle your request. It is never sold or used for anything else. To see it or have it deleted: {email}.",
+      "photos": "Photos and text",
+      "photosText": "Photos, logo and text: Le Piccassiette. No reproduction without permission.",
+      "toConfirm": "to be completed"
+    }
+  },
+  "alt": {
+    "hero": "Inside Le Piccassiette, a bistro on rue Duméril in Amiens",
+    "facade": "The front of Le Piccassiette, 9 rue Duméril, Amiens",
+    "banh-mi": "A banh mi at Le Piccassiette",
+    "bo-bun": "A bo bun at Le Piccassiette",
+    "sandwich": "The sandwich of the moment at Le Piccassiette",
+    "salade": "The big salad at Le Piccassiette",
+    "plat-du-jour": "The dish of the day at Le Piccassiette",
+    "tartiflette": "Tartiflette at Le Piccassiette",
+    "planche": "A sharing board for evening drinks",
+    "verres": "Glasses at the bar of Le Piccassiette",
+    "rhums-arranges": "Jars of house-infused rum behind the bar",
+    "salle": "The dining room of Le Piccassiette and its mosaic",
+    "equipe": "The Le Piccassiette team behind the bar"
+  }
+}

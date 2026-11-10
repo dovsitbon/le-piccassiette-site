@@ -1,0 +1,25 @@
+{
+  "_doc": "La carte. AUCUN PRIX N'EST CONNU : tous les prix sont « null » (affiché « prix à l'ardoise ») et marqués « à remplir » dans CONTENU.md. price : prix en euros (ex. 9.5). from : true = le prix varie (taille, garniture) → affiché « à partir de ». orderable : true = proposé dans la commande du midi. Noms et descriptions dans locales/fr.json et en.json → products. photo : chemins essayés dans l'ordre (le premier présent dans public/media gagne ; sinon illustration au trait). tags : house (fait maison), season (selon la saison), share (à partager), veggie (version végé possible).",
+  "checked": "2026-11-10",
+  "categories": [
+    { "id": "midi", "items": ["banh-mi", "bo-bun", "sandwich", "salade"] },
+    { "id": "moment", "items": ["plat-du-jour", "tartiflette"] },
+    { "id": "apero", "items": ["planche", "verres"] },
+    { "id": "rhums", "items": ["rhum-arrange"] }
+  ],
+  "items": {
+    "banh-mi": { "price": null, "from": true, "orderable": true, "tags": ["house"], "photo": ["/media/plats/banh-mi.jpg"], "illus": "baguette" },
+    "bo-bun": { "price": null, "from": false, "orderable": true, "tags": ["house"], "photo": ["/media/plats/bo-bun.jpg"], "illus": "bowl" },
+    "sandwich": { "price": null, "from": true, "orderable": true, "tags": ["house"], "photo": ["/media/plats/sandwich.jpg"], "illus": "sandwich" },
+    "salade": { "price": null, "from": false, "orderable": true, "tags": [], "photo": ["/media/plats/salade.jpg"], "illus": "salad" },
+    "plat-du-jour": { "price": null, "from": false, "orderable": true, "tags": ["house"], "photo": ["/media/plats/plat-du-jour.jpg"], "illus": "pot" },
+    "tartiflette": { "price": null, "from": false, "orderable": true, "tags": ["season"], "photo": ["/media/plats/tartiflette.jpg"], "illus": "pot" },
+    "planche": { "price": null, "from": true, "orderable": false, "tags": ["share"], "photo": ["/media/apero/planche.jpg"], "illus": "board" },
+    "verres": { "price": null, "from": true, "orderable": false, "tags": [], "photo": ["/media/apero/verres.jpg"], "illus": "glass" },
+    "rhum-arrange": { "price": null, "from": true, "orderable": false, "tags": ["house"], "photo": ["/media/apero/rhums-arranges.jpg"], "illus": "jar" }
+  },
+  "parfums": {
+    "_doc": "Les rhums arrangés du moment (À REMPLIR avec la vraie liste). Chaque entrée : { \"fr\": \"Ananas, vanille\", \"en\": \"Pineapple, vanilla\" }. Liste vide = « la liste est à l'ardoise ».",
+    "items": []
+  }
+}

@@ -1,0 +1,4 @@
+{
+  "_doc": "À REMPLIR avec de vrais avis clients, uniquement avec l'accord du bistro (et idéalement de l'auteur). Aucun avis inventé. Format : { \"author\": \"Prénom N.\", \"date\": \"2026-10\", \"source\": \"Google\", \"fr\": \"texte\", \"en\": \"traduction\" }. Tant que la liste est vide, le site affiche seulement la note Google et un lien vers les avis.",
+  "items": []
+}
