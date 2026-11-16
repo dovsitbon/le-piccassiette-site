@@ -1,1 +1,86 @@
-{}
+{
+ "/media/hero/hero.jpg": [
+  2400,
+  1351
+ ],
+ "/media/plats/banh-mi.jpg": [
+  1064,
+  1600
+ ],
+ "/media/plats/bo-bun.jpg": [
+  1600,
+  1600
+ ],
+ "/media/plats/plat-du-jour.jpg": [
+  1600,
+  1574
+ ],
+ "/media/plats/salade.jpg": [
+  1600,
+  1600
+ ],
+ "/media/plats/sandwich.jpg": [
+  1280,
+  1600
+ ],
+ "/media/plats/tartiflette.jpg": [
+  1600,
+  1600
+ ],
+ "/media/plats/tuile-moment.jpg": [
+  1026,
+  689
+ ],
+ "/media/apero/planche.jpg": [
+  1067,
+  1600
+ ],
+ "/media/apero/rhums-arranges.jpg": [
+  1067,
+  1600
+ ],
+ "/media/apero/tuile-apero.jpg": [
+  1319,
+  1600
+ ],
+ "/media/apero/verres.jpg": [
+  1319,
+  1600
+ ],
+ "/media/salle/salle.jpg": [
+  1080,
+  811
+ ],
+ "/media/facade/facade.jpg": [
+  720,
+  540
+ ],
+ "/media/galerie/ardoise-bo-bun.jpg": [
+  960,
+  654
+ ],
+ "/media/galerie/carpaccio.jpg": [
+  1150,
+  730
+ ],
+ "/media/galerie/poisson-salade.jpg": [
+  900,
+  1600
+ ],
+ "/media/galerie/riz-porc-cacahuetes.jpg": [
+  900,
+  1600
+ ],
+ "/media/galerie/salade-ecrevisses.jpg": [
+  1600,
+  1465
+ ],
+ "/media/galerie/salade-frites.jpg": [
+  1150,
+  730
+ ],
+ "/media/galerie/salade-raviolis.jpg": [
+  1200,
+  1600
+ ]
+}

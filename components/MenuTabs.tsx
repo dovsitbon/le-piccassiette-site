@@ -42,7 +42,7 @@ function Dish({ id, wide = false }: { id: ItemId; wide?: boolean }) {
     <li className={`card group flex bg-paper ring-1 ring-line ${hasPhoto || wide ? "flex-col" : "gap-4 p-4 md:p-5"} ${wide && hasPhoto ? "md:col-span-2 md:grid md:grid-cols-[1.2fr_1fr]" : ""}`}>
       <Photo
         paths={it.photo}
-        alt={hasPhoto ? p.name : ""}
+        alt={hasPhoto ? d.alt[(firstImg(it.photo)?.src.split("/").pop()?.replace(/\.\w+$/, "") ?? "") as keyof typeof d.alt] || p.name : ""}
         illus={it.illus}
         tint={TINT[it.illus]}
         sizes={hasPhoto ? "(min-width: 768px) 46vw, 100vw" : "96px"}

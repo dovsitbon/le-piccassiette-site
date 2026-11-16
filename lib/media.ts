@@ -1,4 +1,5 @@
 import sizes from "@/data/media-sizes.json";
+import illustrations from "@/data/illustrations.json";
 
 export type Img = { src: string; width: number; height: number };
 
@@ -22,3 +23,6 @@ export const imgsIn = (cat: string): Img[] =>
   Object.keys(known)
     .filter((k) => k.startsWith(`/media/${cat}/`))
     .map(img);
+
+/** Photo de banque d'images (data/illustrations.json) : affichée avec la mention « Photo d'illustration ». */
+export const isIllustration = (src: string) => illustrations.paths.includes(src);

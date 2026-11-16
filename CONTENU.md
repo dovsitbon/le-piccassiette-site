@@ -743,6 +743,21 @@ Rhums arrangés du moment : **à remplir**
   - FR : © {year} Le Piccassiette, Amiens
   - EN : © {year} Le Piccassiette, Amiens
 
+### gallery
+
+- `gallery.eyebrow`
+  - FR : En vrai
+  - EN : For real
+- `gallery.title`
+  - FR : Rue Duméril, sans filtre.
+  - EN : Rue Duméril, no filter.
+- `gallery.intro`
+  - FR : Des assiettes servies au Piccassiette, photographiées par le bistro et ses clients.
+  - EN : Plates served at Le Piccassiette, photographed by the bistro and its guests.
+- `gallery.note`
+  - FR : Photos publiées sur la page Facebook et la fiche Google du bistro.
+  - EN : Photos published on the bistro's Facebook page and Google listing.
+
 ### carte (textes autour de la carte)
 
 - `carte.eyebrow`
@@ -982,41 +997,68 @@ Rhums arrangés du moment : **à remplir**
 ## Textes alternatifs des photos (accessibilité, Google Images)
 
 - `alt.hero`
-  - FR : La salle du Piccassiette, bistro rue Duméril à Amiens
-  - EN : Inside Le Piccassiette, a bistro on rue Duméril in Amiens
+  - FR : La façade bleu canard du Piccassiette, 9 rue Duméril à Amiens : bar, sandwicherie, snack
+  - EN : The teal shopfront of Le Piccassiette, 9 rue Duméril, Amiens: bar, sandwich shop, snacks
 - `alt.facade`
-  - FR : La façade du Piccassiette, 9 rue Duméril à Amiens
-  - EN : The front of Le Piccassiette, 9 rue Duméril, Amiens
+  - FR : L'enseigne du Piccassiette éclairée le soir, rue Duméril
+  - EN : Le Piccassiette's sign lit up in the evening, rue Duméril
 - `alt.banh-mi`
-  - FR : Un banh mi du Piccassiette
-  - EN : A banh mi at Le Piccassiette
+  - FR : Photo d'illustration : deux banh mi garnis
+  - EN : Illustrative photo: two filled banh mi
 - `alt.bo-bun`
-  - FR : Un bo bun du Piccassiette
-  - EN : A bo bun at Le Piccassiette
+  - FR : Un bo bun aux nems servi au Piccassiette
+  - EN : A bo bun with spring rolls at Le Piccassiette
 - `alt.sandwich`
-  - FR : Le sandwich du moment au Piccassiette
-  - EN : The sandwich of the moment at Le Piccassiette
+  - FR : Photo d'illustration : un sandwich baguette garni
+  - EN : Illustrative photo: a filled baguette sandwich
 - `alt.salade`
-  - FR : La grande salade du Piccassiette
-  - EN : The big salad at Le Piccassiette
+  - FR : Une grande salade composée du Piccassiette
+  - EN : A big mixed salad at Le Piccassiette
 - `alt.plat-du-jour`
-  - FR : Le plat du jour du Piccassiette
-  - EN : The dish of the day at Le Piccassiette
+  - FR : Porc grillé, riz et nems, un plat du jour du Piccassiette
+  - EN : Grilled pork, rice and spring rolls, a dish of the day at Le Piccassiette
 - `alt.tartiflette`
-  - FR : La tartiflette du Piccassiette
-  - EN : Tartiflette at Le Piccassiette
+  - FR : Photo d'illustration : un gratin de pommes de terre au fromage
+  - EN : Illustrative photo: a cheesy potato gratin
 - `alt.planche`
-  - FR : Une planche à partager pour l'apéro
-  - EN : A sharing board for evening drinks
+  - FR : Photo d'illustration : une planche de charcuterie et de fromages
+  - EN : Illustrative photo: a charcuterie and cheese board
 - `alt.verres`
-  - FR : Des verres au bar du Piccassiette
-  - EN : Glasses at the bar of Le Piccassiette
+  - FR : Une bière et une assiette au comptoir du Piccassiette
+  - EN : A beer and a plate at the counter of Le Piccassiette
 - `alt.rhums-arranges`
-  - FR : Les bocaux de rhums arrangés maison derrière le bar
-  - EN : Jars of house-infused rum behind the bar
+  - FR : Photo d'illustration : un bocal de fruits en macération
+  - EN : Illustrative photo: a jar of steeping fruit
 - `alt.salle`
-  - FR : La salle du Piccassiette et sa mosaïque
-  - EN : The dining room of Le Piccassiette and its mosaic
+  - FR : Soirée en terrasse devant le Piccassiette
+  - EN : An evening on the terrace outside Le Piccassiette
 - `alt.equipe`
   - FR : L'équipe du Piccassiette derrière le bar
   - EN : The Le Piccassiette team behind the bar
+- `alt.tuile-moment`
+  - FR : L'ardoise du jour du Piccassiette : tartiflette salade
+  - EN : Le Piccassiette's daily board: tartiflette with salad
+- `alt.tuile-apero`
+  - FR : Une bière au comptoir du Piccassiette
+  - EN : A beer at the counter of Le Piccassiette
+- `alt.riz-porc-cacahuetes`
+  - FR : Riz, porc caramélisé, cacahuètes et herbes fraîches au Piccassiette
+  - EN : Rice, caramelised pork, peanuts and fresh herbs at Le Piccassiette
+- `alt.salade-raviolis`
+  - FR : Salade, raviolis grillés et sauce pimentée au Piccassiette
+  - EN : Salad, grilled dumplings and chilli sauce at Le Piccassiette
+- `alt.poisson-salade`
+  - FR : Filet de poisson sur lit de salade au Piccassiette
+  - EN : Fish fillet on a bed of salad at Le Piccassiette
+- `alt.carpaccio`
+  - FR : Carpaccio de bœuf, avocat et parmesan au Piccassiette
+  - EN : Beef carpaccio, avocado and parmesan at Le Piccassiette
+- `alt.salade-frites`
+  - FR : Salade au thon et frites servie au bar du Piccassiette
+  - EN : Tuna salad and fries served at the bar of Le Piccassiette
+- `alt.ardoise-bo-bun`
+  - FR : L'ardoise du Piccassiette : bo bun aux crevettes saté et nems
+  - EN : Le Piccassiette's board: shrimp satay bo bun and spring rolls
+- `alt.salade-ecrevisses`
+  - FR : Salade aux écrevisses du Piccassiette
+  - EN : Crayfish salad at Le Piccassiette

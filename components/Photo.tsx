@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { firstImg } from "@/lib/media";
+import { firstImg, isIllustration } from "@/lib/media";
 import { Illus, type IllusName } from "@/components/Illus";
 
 const TINTS = {
@@ -43,6 +43,7 @@ export function Photo({
     return (
       <div className={`zoom bg-cream-deep ${className}`}>
         <Image src={p.src} alt={alt} width={p.width} height={p.height} sizes={sizes} quality={75} priority={priority} fetchPriority={priority ? "high" : undefined} className={`h-full w-full object-cover ${imgClassName}`} />
+        {isIllustration(p.src) && <span className="illus-badge" />}
       </div>
     );
   return (

@@ -20,8 +20,12 @@
     "orderShort": "Commander",
     "facebook": "Le Piccassiette sur Facebook"
   },
-  "announce": { "close": "Fermer le bandeau" },
-  "intro": { "skip": "Passer" },
+  "announce": {
+    "close": "Fermer le bandeau"
+  },
+  "intro": {
+    "skip": "Passer"
+  },
   "status": {
     "open": "Ouvert maintenant",
     "closed": "Fermé en ce moment",
@@ -55,10 +59,22 @@
   "services": {
     "title": "En bref",
     "items": [
-      { "title": "Le midi à emporter", "text": "Commandez en ligne, passez prendre." },
-      { "title": "L'apéro", "text": "Planches et verres, mardi, jeudi et vendredi soir." },
-      { "title": "Rhums arrangés maison", "text": "Macérés ici, servis au verre." },
-      { "title": "03 22 22 00 15", "text": "Une question ? On décroche." }
+      {
+        "title": "Le midi à emporter",
+        "text": "Commandez en ligne, passez prendre."
+      },
+      {
+        "title": "L'apéro",
+        "text": "Planches et verres, mardi, jeudi et vendredi soir."
+      },
+      {
+        "title": "Rhums arrangés maison",
+        "text": "Macérés ici, servis au verre."
+      },
+      {
+        "title": "03 22 22 00 15",
+        "text": "Une question ? On décroche."
+      }
     ]
   },
   "today": {
@@ -74,7 +90,12 @@
     "intro": "Le midi, on mange. Le soir, on trinque. Les prix sont sur la carte, en vrai texte, pas en photo floue.",
     "seeFull": "Toute la carte",
     "tabsLabel": "Rubriques de la carte",
-    "tabs": { "midi": "Le midi", "moment": "Plats du moment", "apero": "Apéro", "rhums": "Rhums arrangés" },
+    "tabs": {
+      "midi": "Le midi",
+      "moment": "Plats du moment",
+      "apero": "Apéro",
+      "rhums": "Rhums arrangés"
+    },
     "priceOnSite": "Prix à l'ardoise",
     "from": "à partir de {price}",
     "add": "Commander",
@@ -92,15 +113,42 @@
     "veggie": "Version végé possible"
   },
   "products": {
-    "banh-mi": { "name": "Banh mi", "desc": "Baguette croustillante, garniture marinée, crudités croquantes et herbes fraîches. Le sandwich vietnamien, fait ici." },
-    "bo-bun": { "name": "Bo bun", "desc": "Vermicelles de riz, crudités, herbes, cacahuètes et sauce maison. Frais, copieux, et ça se mange aussi au bureau." },
-    "sandwich": { "name": "Le sandwich du moment", "desc": "Un sandwich maison dont la recette tourne au gré du marché. Demandez celui du jour." },
-    "salade": { "name": "La grande salade", "desc": "Une salade composée bien garnie, pour manger frais sans rester sur sa faim." },
-    "plat-du-jour": { "name": "Le plat du jour", "desc": "Le plat chaud écrit sur l'ardoise ce matin. Un coup de fil et on vous dit ce que c'est." },
-    "tartiflette": { "name": "Tartiflette", "desc": "Pommes de terre, reblochon fondant, lardons et oignons. Elle revient dès qu'il fait froid." },
-    "planche": { "name": "La planche à partager", "desc": "De quoi grignoter à plusieurs avec un verre. Petite ou grande, selon l'appétit de la tablée." },
-    "verres": { "name": "Vins, bières et softs", "desc": "Au verre ou à la bouteille, pour accompagner la planche ou finir la semaine." },
-    "rhum-arrange": { "name": "Rhum arrangé maison", "desc": "Fruits, épices et rhum, laissés à macérer des semaines dans nos bocaux. Servi au verre." }
+    "banh-mi": {
+      "name": "Banh mi",
+      "desc": "Baguette croustillante, garniture marinée, crudités croquantes et herbes fraîches. Le sandwich vietnamien, fait ici."
+    },
+    "bo-bun": {
+      "name": "Bo bun",
+      "desc": "Vermicelles de riz, crudités, herbes, cacahuètes et sauce maison. Frais, copieux, et ça se mange aussi au bureau."
+    },
+    "sandwich": {
+      "name": "Le sandwich du moment",
+      "desc": "Un sandwich maison dont la recette tourne au gré du marché. Demandez celui du jour."
+    },
+    "salade": {
+      "name": "La grande salade",
+      "desc": "Une salade composée bien garnie, pour manger frais sans rester sur sa faim."
+    },
+    "plat-du-jour": {
+      "name": "Le plat du jour",
+      "desc": "Le plat chaud écrit sur l'ardoise ce matin. Un coup de fil et on vous dit ce que c'est."
+    },
+    "tartiflette": {
+      "name": "Tartiflette",
+      "desc": "Pommes de terre, reblochon fondant, lardons et oignons. Elle revient dès qu'il fait froid."
+    },
+    "planche": {
+      "name": "La planche à partager",
+      "desc": "De quoi grignoter à plusieurs avec un verre. Petite ou grande, selon l'appétit de la tablée."
+    },
+    "verres": {
+      "name": "Vins, bières et softs",
+      "desc": "Au verre ou à la bouteille, pour accompagner la planche ou finir la semaine."
+    },
+    "rhum-arrange": {
+      "name": "Rhum arrangé maison",
+      "desc": "Fruits, épices et rhum, laissés à macérer des semaines dans nos bocaux. Servi au verre."
+    }
   },
   "blocks": {
     "midi": {
@@ -138,19 +186,45 @@
     "accessText": "En plein centre-ville d'Amiens. Le plus simple : à pied, à vélo ou en bus. Plusieurs parkings publics du centre sont à quelques minutes de marche.",
     "route": "Itinéraire",
     "mapTitle": "Le Piccassiette sur la carte",
-    "days": ["Lundi", "Mardi", "Mercredi", "Jeudi", "Vendredi", "Samedi", "Dimanche"],
+    "days": [
+      "Lundi",
+      "Mardi",
+      "Mercredi",
+      "Jeudi",
+      "Vendredi",
+      "Samedi",
+      "Dimanche"
+    ],
     "closed": "Fermé"
   },
   "faq": {
     "eyebrow": "Questions",
     "title": "Les questions qu'on nous pose.",
     "items": [
-      { "q": "Quels sont vos horaires ?", "a": "Mardi et jeudi de 9 h 30 à 22 h, mercredi de 9 h 30 à 14 h 30, vendredi de 9 h 30 à 23 h 30 et samedi de 10 h 30 à 15 h. Fermé le dimanche et le lundi. Les fermetures exceptionnelles sont annoncées en haut du site." },
-      { "q": "Comment commander pour midi ?", "a": "Choisissez vos plats et votre heure de retrait dans le formulaire « Commander pour midi », ou appelez le 03 22 22 00 15. Vous passez prendre, vous payez sur place." },
-      { "q": "Combien de temps faut-il pour préparer une commande ?", "a": "Comptez au moins 20 minutes. Le formulaire ne propose que les heures encore possibles, entre 11 h 30 et 14 h." },
-      { "q": "Faut-il réserver pour l'apéro ?", "a": "Ce n'est pas obligatoire, mais c'est plus sûr le vendredi soir et dès que vous venez à plusieurs. Le formulaire « Réserver pour l'apéro » prend deux minutes." },
-      { "q": "Comment payer ?", "a": "Sur place, au retrait de la commande ou en fin de repas." },
-      { "q": "Peut-on privatiser le bistro pour un anniversaire ?", "a": "On en parle volontiers. Laissez la date et le nombre de personnes dans le formulaire apéro, ou appelez-nous : on regarde ensemble ce qui est possible." }
+      {
+        "q": "Quels sont vos horaires ?",
+        "a": "Mardi et jeudi de 9 h 30 à 22 h, mercredi de 9 h 30 à 14 h 30, vendredi de 9 h 30 à 23 h 30 et samedi de 10 h 30 à 15 h. Fermé le dimanche et le lundi. Les fermetures exceptionnelles sont annoncées en haut du site."
+      },
+      {
+        "q": "Comment commander pour midi ?",
+        "a": "Choisissez vos plats et votre heure de retrait dans le formulaire « Commander pour midi », ou appelez le 03 22 22 00 15. Vous passez prendre, vous payez sur place."
+      },
+      {
+        "q": "Combien de temps faut-il pour préparer une commande ?",
+        "a": "Comptez au moins 20 minutes. Le formulaire ne propose que les heures encore possibles, entre 11 h 30 et 14 h."
+      },
+      {
+        "q": "Faut-il réserver pour l'apéro ?",
+        "a": "Ce n'est pas obligatoire, mais c'est plus sûr le vendredi soir et dès que vous venez à plusieurs. Le formulaire « Réserver pour l'apéro » prend deux minutes."
+      },
+      {
+        "q": "Comment payer ?",
+        "a": "Sur place, au retrait de la commande ou en fin de repas."
+      },
+      {
+        "q": "Peut-on privatiser le bistro pour un anniversaire ?",
+        "a": "On en parle volontiers. Laissez la date et le nombre de personnes dans le formulaire apéro, ou appelez-nous : on regarde ensemble ce qui est possible."
+      }
     ]
   },
   "order": {
@@ -170,7 +244,11 @@
     "noSlots": "Plus de créneau ce jour-là. Choisissez un autre jour.",
     "noDays": "Aucun créneau de retrait dans les prochains jours. Appelez-nous.",
     "prefsTitle": "Remarques",
-    "prefs": { "noCoriander": "Sans coriandre", "veggie": "Version végé si possible", "mild": "Pas trop épicé" },
+    "prefs": {
+      "noCoriander": "Sans coriandre",
+      "veggie": "Version végé si possible",
+      "mild": "Pas trop épicé"
+    },
     "message": "Une précision, une allergie ?",
     "messagePh": "Ex. : sans cacahuètes, couverts en plus…",
     "contactTitle": "Vos coordonnées",
@@ -304,10 +382,22 @@
       "eyebrow": "Le midi rue Duméril",
       "lead": "Un bol de bo bun, un banh mi qui craque. À midi, en centre-ville d'Amiens, le Piccassiette s'occupe de votre pause déjeuner.",
       "sections": [
-        { "h": "Le bo bun", "p": "Des vermicelles de riz, des crudités, des herbes fraîches, des cacahuètes et une sauce maison. C'est frais, c'est copieux, et c'est l'un des plats que nos clients citent le plus." },
-        { "h": "Le banh mi", "p": "Le sandwich vietnamien : une baguette croustillante, une garniture marinée, des légumes croquants et des herbes. On le prépare ici, à la commande." },
-        { "h": "Sur place ou à emporter", "p": "Installez-vous au bistro ou commandez en ligne : vous choisissez votre heure de retrait entre 11 h 30 et 14 h, vous passez prendre et vous payez sur place." },
-        { "h": "Et aussi", "p": "Le sandwich du moment, une grande salade, le plat du jour et, quand il fait froid, la tartiflette." }
+        {
+          "h": "Le bo bun",
+          "p": "Des vermicelles de riz, des crudités, des herbes fraîches, des cacahuètes et une sauce maison. C'est frais, c'est copieux, et c'est l'un des plats que nos clients citent le plus."
+        },
+        {
+          "h": "Le banh mi",
+          "p": "Le sandwich vietnamien : une baguette croustillante, une garniture marinée, des légumes croquants et des herbes. On le prépare ici, à la commande."
+        },
+        {
+          "h": "Sur place ou à emporter",
+          "p": "Installez-vous au bistro ou commandez en ligne : vous choisissez votre heure de retrait entre 11 h 30 et 14 h, vous passez prendre et vous payez sur place."
+        },
+        {
+          "h": "Et aussi",
+          "p": "Le sandwich du moment, une grande salade, le plat du jour et, quand il fait froid, la tartiflette."
+        }
       ],
       "cta": "Commander pour midi"
     },
@@ -319,10 +409,22 @@
       "eyebrow": "Le soir rue Duméril",
       "lead": "Des bocaux de rhum qui macèrent derrière le bar, des planches à partager, une ambiance de bistro de quartier. L'apéro, version Piccassiette.",
       "sections": [
-        { "h": "Les rhums arrangés maison", "p": "Des fruits, des épices, du rhum, et beaucoup de patience. Les parfums changent au fil des bocaux : demandez ceux du moment, on vous fait goûter." },
-        { "h": "Les planches", "p": "De quoi grignoter à plusieurs avec un verre de vin, une bière ou un soft. Petite ou grande, selon la tablée." },
-        { "h": "Quand venir", "p": "Le mardi et le jeudi jusqu'à 22 h, le vendredi jusqu'à 23 h 30. Le vendredi soir, mieux vaut réserver." },
-        { "h": "Un anniversaire, un pot de départ ?", "p": "Le bistro peut accueillir votre groupe. Dites-nous la date et le nombre de personnes, on regarde ensemble." }
+        {
+          "h": "Les rhums arrangés maison",
+          "p": "Des fruits, des épices, du rhum, et beaucoup de patience. Les parfums changent au fil des bocaux : demandez ceux du moment, on vous fait goûter."
+        },
+        {
+          "h": "Les planches",
+          "p": "De quoi grignoter à plusieurs avec un verre de vin, une bière ou un soft. Petite ou grande, selon la tablée."
+        },
+        {
+          "h": "Quand venir",
+          "p": "Le mardi et le jeudi jusqu'à 22 h, le vendredi jusqu'à 23 h 30. Le vendredi soir, mieux vaut réserver."
+        },
+        {
+          "h": "Un anniversaire, un pot de départ ?",
+          "p": "Le bistro peut accueillir votre groupe. Dites-nous la date et le nombre de personnes, on regarde ensemble."
+        }
       ],
       "cta": "Réserver pour l'apéro"
     },
@@ -342,18 +444,33 @@
     }
   },
   "alt": {
-    "hero": "La salle du Piccassiette, bistro rue Duméril à Amiens",
-    "facade": "La façade du Piccassiette, 9 rue Duméril à Amiens",
-    "banh-mi": "Un banh mi du Piccassiette",
-    "bo-bun": "Un bo bun du Piccassiette",
-    "sandwich": "Le sandwich du moment au Piccassiette",
-    "salade": "La grande salade du Piccassiette",
-    "plat-du-jour": "Le plat du jour du Piccassiette",
-    "tartiflette": "La tartiflette du Piccassiette",
-    "planche": "Une planche à partager pour l'apéro",
-    "verres": "Des verres au bar du Piccassiette",
-    "rhums-arranges": "Les bocaux de rhums arrangés maison derrière le bar",
-    "salle": "La salle du Piccassiette et sa mosaïque",
-    "equipe": "L'équipe du Piccassiette derrière le bar"
+    "hero": "La façade bleu canard du Piccassiette, 9 rue Duméril à Amiens : bar, sandwicherie, snack",
+    "facade": "L'enseigne du Piccassiette éclairée le soir, rue Duméril",
+    "banh-mi": "Photo d'illustration : deux banh mi garnis",
+    "bo-bun": "Un bo bun aux nems servi au Piccassiette",
+    "sandwich": "Photo d'illustration : un sandwich baguette garni",
+    "salade": "Une grande salade composée du Piccassiette",
+    "plat-du-jour": "Porc grillé, riz et nems, un plat du jour du Piccassiette",
+    "tartiflette": "Photo d'illustration : un gratin de pommes de terre au fromage",
+    "planche": "Photo d'illustration : une planche de charcuterie et de fromages",
+    "verres": "Une bière et une assiette au comptoir du Piccassiette",
+    "rhums-arranges": "Photo d'illustration : un bocal de fruits en macération",
+    "salle": "Soirée en terrasse devant le Piccassiette",
+    "equipe": "L'équipe du Piccassiette derrière le bar",
+    "tuile-moment": "L'ardoise du jour du Piccassiette : tartiflette salade",
+    "tuile-apero": "Une bière au comptoir du Piccassiette",
+    "riz-porc-cacahuetes": "Riz, porc caramélisé, cacahuètes et herbes fraîches au Piccassiette",
+    "salade-raviolis": "Salade, raviolis grillés et sauce pimentée au Piccassiette",
+    "poisson-salade": "Filet de poisson sur lit de salade au Piccassiette",
+    "carpaccio": "Carpaccio de bœuf, avocat et parmesan au Piccassiette",
+    "salade-frites": "Salade au thon et frites servie au bar du Piccassiette",
+    "ardoise-bo-bun": "L'ardoise du Piccassiette : bo bun aux crevettes saté et nems",
+    "salade-ecrevisses": "Salade aux écrevisses du Piccassiette"
+  },
+  "gallery": {
+    "eyebrow": "En vrai",
+    "title": "Rue Duméril, sans filtre.",
+    "intro": "Des assiettes servies au Piccassiette, photographiées par le bistro et ses clients.",
+    "note": "Photos publiées sur la page Facebook et la fiche Google du bistro."
   }
 }

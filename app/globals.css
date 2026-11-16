@@ -383,6 +383,27 @@ html.intro-seen .intro-curtain {
   }
 }
 
+/* Mention sur les photos de banque d'images (jamais présentées comme le bistro) */
+.illus-badge {
+  position: absolute;
+  inset-inline-start: 0.6rem;
+  top: 0.6rem;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  background: rgb(34 32 30 / 0.72);
+  color: var(--color-cream);
+  font-size: 0.6875rem;
+  font-weight: 500;
+  line-height: 1.5;
+  pointer-events: none;
+}
+.illus-badge::after {
+  content: "Photo d'illustration";
+}
+:lang(en) .illus-badge::after {
+  content: "Illustrative photo";
+}
+
 /* FAQ */
 details > summary {
   list-style: none;

@@ -3,7 +3,7 @@ import Link from "next/link";
 import site from "@/data/site.json";
 import avis from "@/data/avis.json";
 import { getDict, altOf, fill, isLocale } from "@/lib/i18n";
-import { firstImg } from "@/lib/media";
+import { firstImg, imgsIn } from "@/lib/media";
 import { pagePath } from "@/lib/pages";
 import { homeJsonLd } from "@/lib/jsonld";
 import { Reveal } from "@/components/Reveal";
@@ -34,8 +34,8 @@ function SectionHead({ eyebrow, title, intro, center = false }: { eyebrow: strin
 type Block = { id: string; key: "midi" | "apero" | "privat"; paths: string[]; illus: IllusName; tint: Tint };
 const BLOCKS: Block[] = [
   { id: "midi", key: "midi", paths: ["/media/plats/bo-bun.jpg", "/media/plats/banh-mi.jpg"], illus: "bowl", tint: "mustard" },
-  { id: "apero", key: "apero", paths: ["/media/apero/rhums-arranges.jpg", "/media/apero/planche.jpg"], illus: "jar", tint: "teal" },
-  { id: "privatiser", key: "privat", paths: ["/media/salle/salle.jpg", "/media/salle/hero.jpg"], illus: "cheers", tint: "coral" },
+  { id: "apero", key: "apero", paths: ["/media/salle/salle.jpg", "/media/apero/rhums-arranges.jpg"], illus: "jar", tint: "teal" },
+  { id: "privatiser", key: "privat", paths: ["/media/facade/facade.jpg"], illus: "cheers", tint: "coral" },
 ];
 
 const SERVICES: IllusName[] = ["bag", "cheers", "jar", "phone"];
@@ -171,7 +171,28 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
         })}
       </div>
 
-      {/* 6. Avis : la note Google ; les vrais avis s'ajoutent dans data/avis.json (aucun inventé) */}
+      {/* 6. En vrai : les vraies photos du bistro (assets/galerie), aucune photo de banque d'images */}
+      {imgsIn("galerie").length > 0 && (
+        <section id="galerie" className="px-4 pt-24 md:px-8 md:pt-32">
+          <div className="mx-auto max-w-7xl">
+            <div className="mb-8 px-1">
+              <SectionHead eyebrow={d.gallery.eyebrow} title={d.gallery.title} intro={d.gallery.intro} />
+            </div>
+            <ul className="grid grid-cols-2 gap-3 md:grid-cols-4 md:gap-4">
+              {imgsIn("galerie").map((p, i) => (
+                <Reveal as="li" key={p.src} delay={(i % 4) * 0.04}>
+                  <div className="zoom card h-full">
+                    <Image src={p.src} alt={altOf(d, p.src)} width={p.width} height={p.height} sizes="(min-width: 768px) 25vw, 50vw" quality={75} className="aspect-square h-full w-full object-cover" />
+                  </div>
+                </Reveal>
+              ))}
+            </ul>
+            <p className="mt-4 px-1 text-[0.9375rem] text-muted">{d.gallery.note}</p>
+          </div>
+        </section>
+      )}
+
+      {/* 7. Avis : la note Google ; les vrais avis s'ajoutent dans data/avis.json (aucun inventé) */}
       <section id="avis" className="px-4 pt-24 md:px-8 md:pt-32">
         <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[28px] bg-teal px-6 py-14 text-cream md:px-14 md:py-20">
           <div hidden dangerouslySetInnerHTML={{ __html: "<!-- À REMPLIR avec de vrais avis clients (data/avis.json), avec l'accord du bistro -->" }} />
@@ -246,7 +267,6 @@ export default async function Home({ params }: PageProps<"/[lang]">) {
               </div>
             </Reveal>
             <Reveal delay={0.05} className="card flex min-h-96 flex-col bg-cream-deep">
-              {firstImg(["/media/facade/facade.jpg"]) && <Photo paths={["/media/facade/facade.jpg"]} alt={d.alt.facade} illus="facade" sizes="(min-width: 1024px) 50vw, 100vw" className="aspect-[16/9]" />}
               <iframe title={d.infos.mapTitle} src={site.mapsEmbed} loading="lazy" referrerPolicy="no-referrer-when-downgrade" className="min-h-96 w-full flex-1 border-0" />
             </Reveal>
           </div>

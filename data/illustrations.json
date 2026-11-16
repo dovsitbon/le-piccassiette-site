@@ -1,0 +1,10 @@
+{
+ "_doc": "Photos d'illustration (banque d'images) : le site les marque « Photo d'illustration ». Retirez une ligne quand la vraie photo la remplace (même nom de fichier dans assets/).",
+ "paths": [
+  "/media/plats/banh-mi.jpg",
+  "/media/plats/sandwich.jpg",
+  "/media/plats/tartiflette.jpg",
+  "/media/apero/planche.jpg",
+  "/media/apero/rhums-arranges.jpg"
+ ]
+}

@@ -143,7 +143,7 @@ function Commander({ lang, d }: { lang: Locale; d: Dict }) {
 /** Pages SEO « Bo bun et banh mi à Amiens » et « Apéro et rhums arrangés à Amiens ». */
 function Seo({ id, lang, d }: { id: "midi" | "apero"; lang: Locale; d: Dict }) {
   const p = d.pages[id];
-  const photo = id === "midi" ? { paths: ["/media/plats/bo-bun.jpg", "/media/plats/banh-mi.jpg"], illus: "bowl" as const, tint: "mustard" as const } : { paths: ["/media/apero/rhums-arranges.jpg"], illus: "jar" as const, tint: "teal" as const };
+  const photo = id === "midi" ? { paths: ["/media/plats/bo-bun.jpg", "/media/plats/banh-mi.jpg"], illus: "bowl" as const, tint: "mustard" as const } : { paths: ["/media/salle/salle.jpg", "/media/apero/rhums-arranges.jpg"], illus: "jar" as const, tint: "teal" as const };
   const cta =
     id === "midi" ? (
       <OrderLink href={pagePath("commander", lang)} className="btn-order">
@@ -167,7 +167,7 @@ function Seo({ id, lang, d }: { id: "midi" | "apero"; lang: Locale; d: Dict }) {
               <Rating lang={lang} d={d} />
             </div>
           </div>
-          <Photo paths={photo.paths} alt="" illus={photo.illus} tint={photo.tint} sizes="(min-width: 768px) 46vw, 100vw" className="card aspect-[4/3]" illusClassName="h-2/5 w-2/5" />
+          <Photo paths={photo.paths} alt={id === "midi" ? d.alt["bo-bun"] : d.alt.salle} illus={photo.illus} tint={photo.tint} sizes="(min-width: 768px) 46vw, 100vw" className="card aspect-[4/3]" illusClassName="h-2/5 w-2/5" />
         </div>
         <div className="mt-16 grid gap-x-16 gap-y-10 md:grid-cols-2">
           {p.sections.map((s) => (

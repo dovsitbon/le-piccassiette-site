@@ -11,7 +11,8 @@
     "media": "node scripts/media.mjs",
     "contenu": "node scripts/contenu.mjs",
     "affichette": "node scripts/affichette.mjs",
-    "logo": "node scripts/logo.mjs"
+    "logo": "node scripts/logo.mjs",
+    "photos": "node scripts/photos.mjs"
   },
   "dependencies": {
     "motion": "^14.9.1",
@@ -24,6 +25,7 @@
     "@fontsource-variable/fraunces": "^5.2.5",
     "@fontsource-variable/jost": "^5.2.5",
     "@fontsource/fraunces": "^5.2.5",
+    "@tailwindcss/postcss": "^4.3.5",
     "@tailwindcss/turbopack": "^4",
     "@types/node": "^20",
     "@types/react": "^19",

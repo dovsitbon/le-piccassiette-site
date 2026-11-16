@@ -15,7 +15,7 @@ import sharp from "sharp";
 import { plateShards, PALETTE } from "../lib/mosaic.js";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
-const CATS = ["hero", "plats", "apero", "salle", "facade"];
+const CATS = ["hero", "plats", "apero", "salle", "facade", "galerie"];
 const exists = (f) => access(f).then(() => true, () => false);
 
 const sizes = {};

@@ -20,8 +20,12 @@
     "orderShort": "Order",
     "facebook": "Le Piccassiette on Facebook"
   },
-  "announce": { "close": "Close banner" },
-  "intro": { "skip": "Skip" },
+  "announce": {
+    "close": "Close banner"
+  },
+  "intro": {
+    "skip": "Skip"
+  },
   "status": {
     "open": "Open now",
     "closed": "Closed right now",
@@ -55,10 +59,22 @@
   "services": {
     "title": "In short",
     "items": [
-      { "title": "Lunch to take away", "text": "Order online, pick it up." },
-      { "title": "Evening drinks", "text": "Boards and glasses, Tuesday, Thursday and Friday nights." },
-      { "title": "House-infused rum", "text": "Steeped here, served by the glass." },
-      { "title": "03 22 22 00 15", "text": "A question? We pick up." }
+      {
+        "title": "Lunch to take away",
+        "text": "Order online, pick it up."
+      },
+      {
+        "title": "Evening drinks",
+        "text": "Boards and glasses, Tuesday, Thursday and Friday nights."
+      },
+      {
+        "title": "House-infused rum",
+        "text": "Steeped here, served by the glass."
+      },
+      {
+        "title": "03 22 22 00 15",
+        "text": "A question? We pick up."
+      }
     ]
   },
   "today": {
@@ -74,7 +90,12 @@
     "intro": "At lunch we eat. In the evening we raise a glass. Prices are right here in real text, not in a blurry photo.",
     "seeFull": "Full menu",
     "tabsLabel": "Menu sections",
-    "tabs": { "midi": "Lunch", "moment": "Seasonal dishes", "apero": "Drinks", "rhums": "Infused rum" },
+    "tabs": {
+      "midi": "Lunch",
+      "moment": "Seasonal dishes",
+      "apero": "Drinks",
+      "rhums": "Infused rum"
+    },
     "priceOnSite": "Price on the board",
     "from": "from {price}",
     "add": "Order",
@@ -92,15 +113,42 @@
     "veggie": "Veggie option"
   },
   "products": {
-    "banh-mi": { "name": "Banh mi", "desc": "Crusty baguette, marinated filling, crunchy pickled veg and fresh herbs. The Vietnamese sandwich, made right here." },
-    "bo-bun": { "name": "Bo bun", "desc": "Rice vermicelli, raw veg, herbs, peanuts and our own sauce. Fresh, generous, and it travels well to the office." },
-    "sandwich": { "name": "Sandwich of the moment", "desc": "A home-made sandwich whose recipe follows the market. Ask what today's is." },
-    "salade": { "name": "The big salad", "desc": "A well-loaded mixed salad, for a fresh lunch that still fills you up." },
-    "plat-du-jour": { "name": "Dish of the day", "desc": "The hot dish chalked on the board this morning. Give us a ring and we'll tell you what it is." },
-    "tartiflette": { "name": "Tartiflette", "desc": "Potatoes, melting reblochon cheese, bacon and onions. It's back as soon as the weather turns cold." },
-    "planche": { "name": "Sharing board", "desc": "Something to nibble on with a drink. Small or large, depending on how hungry the table is." },
-    "verres": { "name": "Wine, beer and soft drinks", "desc": "By the glass or by the bottle, with a board or to wrap up the week." },
-    "rhum-arrange": { "name": "House-infused rum", "desc": "Fruit, spices and rum, left to steep for weeks in our jars. Served by the glass." }
+    "banh-mi": {
+      "name": "Banh mi",
+      "desc": "Crusty baguette, marinated filling, crunchy pickled veg and fresh herbs. The Vietnamese sandwich, made right here."
+    },
+    "bo-bun": {
+      "name": "Bo bun",
+      "desc": "Rice vermicelli, raw veg, herbs, peanuts and our own sauce. Fresh, generous, and it travels well to the office."
+    },
+    "sandwich": {
+      "name": "Sandwich of the moment",
+      "desc": "A home-made sandwich whose recipe follows the market. Ask what today's is."
+    },
+    "salade": {
+      "name": "The big salad",
+      "desc": "A well-loaded mixed salad, for a fresh lunch that still fills you up."
+    },
+    "plat-du-jour": {
+      "name": "Dish of the day",
+      "desc": "The hot dish chalked on the board this morning. Give us a ring and we'll tell you what it is."
+    },
+    "tartiflette": {
+      "name": "Tartiflette",
+      "desc": "Potatoes, melting reblochon cheese, bacon and onions. It's back as soon as the weather turns cold."
+    },
+    "planche": {
+      "name": "Sharing board",
+      "desc": "Something to nibble on with a drink. Small or large, depending on how hungry the table is."
+    },
+    "verres": {
+      "name": "Wine, beer and soft drinks",
+      "desc": "By the glass or by the bottle, with a board or to wrap up the week."
+    },
+    "rhum-arrange": {
+      "name": "House-infused rum",
+      "desc": "Fruit, spices and rum, left to steep for weeks in our jars. Served by the glass."
+    }
   },
   "blocks": {
     "midi": {
@@ -138,19 +186,45 @@
     "accessText": "Right in the centre of Amiens. Easiest on foot, by bike or by bus. Several public car parks in the centre are a few minutes' walk away.",
     "route": "Directions",
     "mapTitle": "Le Piccassiette on the map",
-    "days": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
+    "days": [
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday",
+      "Friday",
+      "Saturday",
+      "Sunday"
+    ],
     "closed": "Closed"
   },
   "faq": {
     "eyebrow": "Questions",
     "title": "The questions we get asked.",
     "items": [
-      { "q": "What are your opening hours?", "a": "Tuesday and Thursday 9:30 am to 10 pm, Wednesday 9:30 am to 2:30 pm, Friday 9:30 am to 11:30 pm and Saturday 10:30 am to 3 pm. Closed on Sundays and Mondays. Any extra closures are announced at the top of the site." },
-      { "q": "How do I order for lunch?", "a": "Pick your dishes and a pickup time in the “Order for lunch” form, or call 03 22 22 00 15. You collect, you pay on site." },
-      { "q": "How long does an order take?", "a": "Allow at least 20 minutes. The form only offers times that are still possible, between 11:30 am and 2 pm." },
-      { "q": "Do I need to book for drinks?", "a": "You don't have to, but it's safer on Friday nights and whenever you come as a group. The “Book for drinks” form takes two minutes." },
-      { "q": "How do I pay?", "a": "On site, when you collect your order or at the end of your meal." },
-      { "q": "Can we hire the bistro for a birthday?", "a": "We're happy to talk about it. Leave the date and number of guests in the drinks form, or call us, and we'll see together what's possible." }
+      {
+        "q": "What are your opening hours?",
+        "a": "Tuesday and Thursday 9:30 am to 10 pm, Wednesday 9:30 am to 2:30 pm, Friday 9:30 am to 11:30 pm and Saturday 10:30 am to 3 pm. Closed on Sundays and Mondays. Any extra closures are announced at the top of the site."
+      },
+      {
+        "q": "How do I order for lunch?",
+        "a": "Pick your dishes and a pickup time in the “Order for lunch” form, or call 03 22 22 00 15. You collect, you pay on site."
+      },
+      {
+        "q": "How long does an order take?",
+        "a": "Allow at least 20 minutes. The form only offers times that are still possible, between 11:30 am and 2 pm."
+      },
+      {
+        "q": "Do I need to book for drinks?",
+        "a": "You don't have to, but it's safer on Friday nights and whenever you come as a group. The “Book for drinks” form takes two minutes."
+      },
+      {
+        "q": "How do I pay?",
+        "a": "On site, when you collect your order or at the end of your meal."
+      },
+      {
+        "q": "Can we hire the bistro for a birthday?",
+        "a": "We're happy to talk about it. Leave the date and number of guests in the drinks form, or call us, and we'll see together what's possible."
+      }
     ]
   },
   "order": {
@@ -170,7 +244,11 @@
     "noSlots": "No slots left that day. Pick another day.",
     "noDays": "No pickup slots in the next few days. Give us a call.",
     "prefsTitle": "Notes",
-    "prefs": { "noCoriander": "No coriander", "veggie": "Veggie if possible", "mild": "Not too spicy" },
+    "prefs": {
+      "noCoriander": "No coriander",
+      "veggie": "Veggie if possible",
+      "mild": "Not too spicy"
+    },
     "message": "Anything to add, any allergy?",
     "messagePh": "E.g. no peanuts, extra cutlery…",
     "contactTitle": "Your details",
@@ -304,10 +382,22 @@
       "eyebrow": "Lunch on rue Duméril",
       "lead": "A bowl of bo bun, a banh mi with a proper crunch. At lunchtime in central Amiens, Le Piccassiette takes care of your break.",
       "sections": [
-        { "h": "The bo bun", "p": "Rice vermicelli, raw veg, fresh herbs, peanuts and our own sauce. Fresh, generous, and one of the dishes our guests mention most." },
-        { "h": "The banh mi", "p": "The Vietnamese sandwich: a crusty baguette, a marinated filling, crunchy veg and herbs. We make it here, to order." },
-        { "h": "Eat in or take away", "p": "Grab a seat at the bistro or order online: choose a pickup time between 11:30 am and 2 pm, collect it and pay on site." },
-        { "h": "Also on", "p": "The sandwich of the moment, a big salad, the dish of the day and, when it gets cold, tartiflette." }
+        {
+          "h": "The bo bun",
+          "p": "Rice vermicelli, raw veg, fresh herbs, peanuts and our own sauce. Fresh, generous, and one of the dishes our guests mention most."
+        },
+        {
+          "h": "The banh mi",
+          "p": "The Vietnamese sandwich: a crusty baguette, a marinated filling, crunchy veg and herbs. We make it here, to order."
+        },
+        {
+          "h": "Eat in or take away",
+          "p": "Grab a seat at the bistro or order online: choose a pickup time between 11:30 am and 2 pm, collect it and pay on site."
+        },
+        {
+          "h": "Also on",
+          "p": "The sandwich of the moment, a big salad, the dish of the day and, when it gets cold, tartiflette."
+        }
       ],
       "cta": "Order for lunch"
     },
@@ -319,10 +409,22 @@
       "eyebrow": "Evenings on rue Duméril",
       "lead": "Jars of rum steeping behind the bar, boards to share, a proper neighbourhood bistro feel. Evening drinks, Piccassiette style.",
       "sections": [
-        { "h": "House-infused rum", "p": "Fruit, spices, rum and a lot of patience. The flavours change as the jars come and go: ask what's on, we'll let you taste." },
-        { "h": "Sharing boards", "p": "Something to nibble on together with a glass of wine, a beer or a soft drink. Small or large, depending on the table." },
-        { "h": "When to come", "p": "Tuesday and Thursday until 10 pm, Friday until 11:30 pm. On Friday nights, booking is a good idea." },
-        { "h": "A birthday, leaving drinks?", "p": "The bistro can welcome your group. Tell us the date and the number of guests, and we'll work it out together." }
+        {
+          "h": "House-infused rum",
+          "p": "Fruit, spices, rum and a lot of patience. The flavours change as the jars come and go: ask what's on, we'll let you taste."
+        },
+        {
+          "h": "Sharing boards",
+          "p": "Something to nibble on together with a glass of wine, a beer or a soft drink. Small or large, depending on the table."
+        },
+        {
+          "h": "When to come",
+          "p": "Tuesday and Thursday until 10 pm, Friday until 11:30 pm. On Friday nights, booking is a good idea."
+        },
+        {
+          "h": "A birthday, leaving drinks?",
+          "p": "The bistro can welcome your group. Tell us the date and the number of guests, and we'll work it out together."
+        }
       ],
       "cta": "Book for drinks"
     },
@@ -342,18 +444,33 @@
     }
   },
   "alt": {
-    "hero": "Inside Le Piccassiette, a bistro on rue Duméril in Amiens",
-    "facade": "The front of Le Piccassiette, 9 rue Duméril, Amiens",
-    "banh-mi": "A banh mi at Le Piccassiette",
-    "bo-bun": "A bo bun at Le Piccassiette",
-    "sandwich": "The sandwich of the moment at Le Piccassiette",
-    "salade": "The big salad at Le Piccassiette",
-    "plat-du-jour": "The dish of the day at Le Piccassiette",
-    "tartiflette": "Tartiflette at Le Piccassiette",
-    "planche": "A sharing board for evening drinks",
-    "verres": "Glasses at the bar of Le Piccassiette",
-    "rhums-arranges": "Jars of house-infused rum behind the bar",
-    "salle": "The dining room of Le Piccassiette and its mosaic",
-    "equipe": "The Le Piccassiette team behind the bar"
+    "hero": "The teal shopfront of Le Piccassiette, 9 rue Duméril, Amiens: bar, sandwich shop, snacks",
+    "facade": "Le Piccassiette's sign lit up in the evening, rue Duméril",
+    "banh-mi": "Illustrative photo: two filled banh mi",
+    "bo-bun": "A bo bun with spring rolls at Le Piccassiette",
+    "sandwich": "Illustrative photo: a filled baguette sandwich",
+    "salade": "A big mixed salad at Le Piccassiette",
+    "plat-du-jour": "Grilled pork, rice and spring rolls, a dish of the day at Le Piccassiette",
+    "tartiflette": "Illustrative photo: a cheesy potato gratin",
+    "planche": "Illustrative photo: a charcuterie and cheese board",
+    "verres": "A beer and a plate at the counter of Le Piccassiette",
+    "rhums-arranges": "Illustrative photo: a jar of steeping fruit",
+    "salle": "An evening on the terrace outside Le Piccassiette",
+    "equipe": "The Le Piccassiette team behind the bar",
+    "tuile-moment": "Le Piccassiette's daily board: tartiflette with salad",
+    "tuile-apero": "A beer at the counter of Le Piccassiette",
+    "riz-porc-cacahuetes": "Rice, caramelised pork, peanuts and fresh herbs at Le Piccassiette",
+    "salade-raviolis": "Salad, grilled dumplings and chilli sauce at Le Piccassiette",
+    "poisson-salade": "Fish fillet on a bed of salad at Le Piccassiette",
+    "carpaccio": "Beef carpaccio, avocado and parmesan at Le Piccassiette",
+    "salade-frites": "Tuna salad and fries served at the bar of Le Piccassiette",
+    "ardoise-bo-bun": "Le Piccassiette's board: shrimp satay bo bun and spring rolls",
+    "salade-ecrevisses": "Crayfish salad at Le Piccassiette"
+  },
+  "gallery": {
+    "eyebrow": "For real",
+    "title": "Rue Duméril, no filter.",
+    "intro": "Plates served at Le Piccassiette, photographed by the bistro and its guests.",
+    "note": "Photos published on the bistro's Facebook page and Google listing."
   }
 }
